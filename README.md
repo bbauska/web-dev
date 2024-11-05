@@ -1,112 +1,25 @@
-![](./images-ref/media/image1.jpeg)
-
-####### [www.allitebooks.com](http://www.allitebooks.org/)
+![](./images/image001.jpeg)
 
 > Web Developer\'s Reference Guide
 >
 > A one-stop guide to the essentials of web development including
 > popular frameworks such as jQuery, Bootstrap, AngularJS, and Node.js
 
-##### Joshua Johanan Talha Khan Ricardo Zea
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02.js learn javascript logo(01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image002.png"
+  title="JS Learn JS logo"
+  alt="JS Learn JS logo."
+  style="border: 2px solid #000000; width:45%; height:33%;" />
+</p>
+<!-- ![](./images/image002.png){width="7.452318460192477e-2in" height="0.1122911198600175in"} -->
 
-> ![](./images-ref/media/image2.png){width="7.452318460192477e-2in"
-> height="0.1122911198600175in"}
->
 > BIRMINGHAM - MUMBAI
 >
 > Web Developer\'s Reference Guide
 >
-> Copyright © 2016 Packt Publishing
->
-> All rights reserved. No part of this book may be reproduced, stored in
-> a retrieval system, or transmitted in any form or by any means,
-> without the prior written permission of the publisher, except in the
-> case of brief quotations embedded in critical articles or reviews.
->
-> Every effort has been made in the preparation of this book to ensure
-> the accuracy of the information presented. However, the information
-> contained in this book is sold without warranty, either express or
-> implied. Neither the authors, nor Packt Publishing, and its dealers
-> and distributors will be held liable for any damages caused or alleged
-> to be caused directly or indirectly by this book.
->
-> Packt Publishing has endeavored to provide trademark information about
-> all of the companies and products mentioned in this book by the
-> appropriate use of capitals. However, Packt Publishing cannot
-> guarantee the accuracy of this information.
->
-> First published: March 2016
->
-> Production reference: 1180316
->
-> Published by Packt Publishing Ltd. Livery Place
->
-> 35 Livery Street Birmingham B3 2PB, UK.
->
-> ISBN 978-1-78355-213-9
->
-> [www.packtpub.com](http://www.packtpub.com/)
->
-> Credits
->
-> **Authors**
->
-> Joshua Johanan Talha Khan Ricardo Zea
->
-> **Reviewers**
->
-> Chetankumar Akarte Gergo Bogdan Rahul Devaskar David Ellenwood
->
-> Philippe Reneiver Gonin Robert Mion
->
-> Natalie Olivo Mateus Ortiz
->
-> **Commissioning Editor**
->
-> Edward Gordon
->
-> **Acquisition Editor**
->
-> Meeta Rajani
->
-> **Content Development Editor**
->
-> Samantha Gonsalves
->
-> **Technical Editor**
->
-> Abhishek R. Kotian
->
-> **Copy Editor**
->
-> Pranjali Chury
->
-> **Project Coordinator**
->
-> Kinjal Bari
->
-> **Proofreader**
->
-> Safis Editing
->
-> **Indexer**
->
-> Monica Ajmera Mehta
->
-> **Graphics**
->
-> Disha Haria
->
-> **Production Coordinator**
->
-> Conidon Miranda
->
-> **Cover Work**
->
-> Conidon Miranda
->
-> About the Authors
->
+
 > **Joshua Johanan** is a web developer who currently lives in South
 > Bend, Indiana. He has been a web developer for five years. He has
 > built sites using many different languages, including PHP, Python,
@@ -344,7 +257,7 @@
 > newsletters and receive exclusive discounts and offers on Packt books
 > and eBooks.
 
-![](./images-ref/media/image3.png)![](./images-ref/media/image4.png)
+![](./images/image003.png)![](./images/image004.png)
 
 > <https://www2.packtpub.com/books/subscription/packtlib>
 >
@@ -367,41 +280,23 @@
 > [**Preface xxi**](#preface)
 >
 > **Chapter 1: [HTML Elements 1](#_bookmark1)**
->
 > [**DOCTYPE 1**](#_bookmark1)
->
 > [Attributes 2](#_bookmark2)
->
 > [Description 2](#_bookmark2)
->
 > [**html 2**](#_bookmark2)
->
 > [Attributes 2](#_bookmark2)
->
 > [Description 2](#_bookmark2)
->
 > [**Document metadata 3**](#_bookmark3)
->
 > [head 3](#_bookmark3)
->
 > [**Semantic content sections 9**](#_bookmark9)
->
 > [body 9](#_bookmark9)
->
 > [section 9](#_bookmark9)
->
 > [nav 10](#_bookmark10)
->
 > [Headings 11](#description-13)
->
 > [header 12](#_bookmark12)
->
 > [footer 13](#footer)
->
 > [address 13](#footer)
->
 > [aside 14](#_bookmark14)
->
 > [p 14](#_bookmark14)
 >
 > [**Content sections 14**](#_bookmark14)
@@ -422,311 +317,186 @@
 >
 > **\[ i \]**
 >
-> *[Table of Contents]{.underline}*
-
-+-------------------------+-------------------------+-----------------+
+> *[Table of Contents]*
 | > [dt](#_bookmark19)    |                         | [19             |
 |                         |                         | ](#_bookmark19) |
-+=========================+=========================+=================+
 | > [dd](#_bookmark19)    |                         | [19             |
 |                         |                         | ](#_bookmark19) |
-+-------------------------+-------------------------+-----------------+
 | >                       |                         | [20             |
 |  [figure](#_bookmark20) |                         | ](#_bookmark20) |
-+-------------------------+-------------------------+-----------------+
 | > [fi                   |                         | [20             |
 | gcaption](#_bookmark20) |                         | ](#_bookmark20) |
-+-------------------------+-------------------------+-----------------+
 | > [div](#see-also-13)   |                         | [21             |
 |                         |                         | ](#see-also-13) |
-+-------------------------+-------------------------+-----------------+
 | > [**Inline             |                         | [**22**         |
 | > el                    |                         | ](#_bookmark22) |
 | ements**](#_bookmark22) |                         |                 |
-+-------------------------+-------------------------+-----------------+
 | > [a](#_bookmark22)     |                         | [22             |
 |                         |                         | ](#_bookmark22) |
-+-------------------------+-------------------------+-----------------+
 | > [abbr](#_bookmark23)  |                         | [23             |
 |                         |                         | ](#_bookmark23) |
-+-------------------------+-------------------------+-----------------+
 | > [bdo](#_bookmark23)   |                         | [23             |
 |                         |                         | ](#_bookmark23) |
-+-------------------------+-------------------------+-----------------+
 | > [br](#_bookmark24)    |                         | [24             |
 |                         |                         | ](#_bookmark24) |
-+-------------------------+-------------------------+-----------------+
 | > [cite](#_bookmark24)  |                         | [24             |
 |                         |                         | ](#_bookmark24) |
-+-------------------------+-------------------------+-----------------+
 | > [code](#_bookmark25)  |                         | [25             |
 |                         |                         | ](#_bookmark25) |
-+-------------------------+-------------------------+-----------------+
 | > [dfn](#_bookmark25)   |                         | [25             |
 |                         |                         | ](#_bookmark25) |
-+-------------------------+-------------------------+-----------------+
 | > [em](#_bookmark25)    |                         | [25             |
 |                         |                         | ](#_bookmark25) |
-+-------------------------+-------------------------+-----------------+
 | > [kbd](#_bookmark26)   |                         | [26             |
 |                         |                         | ](#_bookmark26) |
-+-------------------------+-------------------------+-----------------+
 | > [mark](#_bookmark26)  |                         | [26             |
 |                         |                         | ](#_bookmark26) |
-+-------------------------+-------------------------+-----------------+
 | > [q](#_bookmark26)     |                         | [26             |
 |                         |                         | ](#_bookmark26) |
-+-------------------------+-------------------------+-----------------+
 | > [s](#_bookmark27)     |                         | [27             |
 |                         |                         | ](#_bookmark27) |
-+-------------------------+-------------------------+-----------------+
 | > [samp](#_bookmark27)  |                         | [27             |
 |                         |                         | ](#_bookmark27) |
-+-------------------------+-------------------------+-----------------+
 | > [small](#_bookmark27) |                         | [27             |
 |                         |                         | ](#_bookmark27) |
-+-------------------------+-------------------------+-----------------+
 | > [span](#_bookmark28)  |                         | [28             |
 |                         |                         | ](#_bookmark28) |
-+-------------------------+-------------------------+-----------------+
 | >                       |                         | [28             |
 |  [strong](#_bookmark28) |                         | ](#_bookmark28) |
-+-------------------------+-------------------------+-----------------+
 | > [sub](#_bookmark28)   |                         | [28             |
 |                         |                         | ](#_bookmark28) |
-+-------------------------+-------------------------+-----------------+
 | > [sup](#_bookmark29)   |                         | [29             |
 |                         |                         | ](#_bookmark29) |
-+-------------------------+-------------------------+-----------------+
 | > [time](#_bookmark29)  |                         | [29             |
 |                         |                         | ](#_bookmark29) |
-+-------------------------+-------------------------+-----------------+
 | > [var](#_bookmark30)   |                         | [30             |
 |                         |                         | ](#_bookmark30) |
-+-------------------------+-------------------------+-----------------+
 | > [wbr](#_bookmark30)   |                         | [30             |
 |                         |                         | ](#_bookmark30) |
-+-------------------------+-------------------------+-----------------+
 | > [**Embedded           |                         | [**30**         |
 | > c                     |                         | ](#_bookmark30) |
 | ontent**](#_bookmark30) |                         |                 |
-+-------------------------+-------------------------+-----------------+
 | > [img](#_bookmark30)   |                         | [30             |
 |                         |                         | ](#_bookmark30) |
-+-------------------------+-------------------------+-----------------+
 | > [embed](#_bookmark33) |                         | [33             |
 |                         |                         | ](#_bookmark33) |
-+-------------------------+-------------------------+-----------------+
 | >                       |                         | [34             |
 |  [object](#_bookmark34) |                         | ](#_bookmark34) |
-+-------------------------+-------------------------+-----------------+
 | > [param](#_bookmark35) |                         | [35             |
 |                         |                         | ](#_bookmark35) |
-+-------------------------+-------------------------+-----------------+
 | > [video](#_bookmark35) |                         | [35             |
 |                         |                         | ](#_bookmark35) |
-+-------------------------+-------------------------+-----------------+
 | > [audio](#_bookmark36) |                         | [36             |
 |                         |                         | ](#_bookmark36) |
-+-------------------------+-------------------------+-----------------+
 | >                       |                         | [37             |
 |  [source](#_bookmark37) |                         | ](#_bookmark37) |
-+-------------------------+-------------------------+-----------------+
 | > [track](#_bookmark38) |                         | [38             |
 |                         |                         | ](#_bookmark38) |
-+-------------------------+-------------------------+-----------------+
 | > [**                   |                         | [**39**         |
 | Tables**](#_bookmark39) |                         | ](#_bookmark39) |
-+-------------------------+-------------------------+-----------------+
 | > [table](#_bookmark39) |                         | [39             |
 |                         |                         | ](#_bookmark39) |
-+-------------------------+-------------------------+-----------------+
 | >                       |                         | [39             |
 | [caption](#_bookmark39) |                         | ](#_bookmark39) |
-+-------------------------+-------------------------+-----------------+
 | > [                     |                         | [40             |
 | colgroup](#_bookmark40) |                         | ](#_bookmark40) |
-+-------------------------+-------------------------+-----------------+
 | > [tbody](#_bookmark40) | > **\[ ii \]**          | [40             |
 |                         |                         | ](#_bookmark40) |
-+-------------------------+-------------------------+-----------------+
 
 *Table of Contents*
 
 > [thead 41](#_bookmark41)
->
 > [tfoot 41](#_bookmark41)
->
 > [tr 42](#_bookmark42)
->
 > [td 43](#_bookmark43)
->
 > [th 43](#_bookmark43)
->
 > [**Forms 44**](#_bookmark44)
->
 > [Form 44](#_bookmark44)
->
 > [fieldset 45](#description-72)
->
 > [legend 46](#_bookmark46)
->
 > [label 46](#_bookmark46)
->
 > [input 47](#_bookmark47)
->
 > [button 49](#bookmark49)
->
 > [select 50](#_bookmark50)
->
 > [optgroup 51](#_bookmark51)
->
 > [option 52](#_bookmark52)
->
 > [textarea 53](#see-also-24)
->
 > [**Drawing elements 54**](#_bookmark54)
->
 > [canvas 54](#_bookmark54)
->
 > [svg 55](#_bookmark55)
 >
 > **Chapter 2: [HTML Attributes 57](#_bookmark56)**
 >
 > [**Global attributes 57**](#_bookmark56)
->
 > [accesskey 57](#_bookmark56)
->
 > [class 58](#_bookmark57)
->
 > [contenteditable 58](#_bookmark57)
->
 > [data-\* 58](#_bookmark57)
->
 > [dir 59](#_bookmark58)
->
 > [draggable 59](#_bookmark58)
->
 > [id 60](#_bookmark59)
->
 > [lang 60](#_bookmark59)
->
 > [spellcheck 61](#_bookmark60)
->
 > [style 61](#_bookmark60)
->
 > [tabindex 61](#_bookmark60)
->
 > [title 62](#_bookmark61)
->
 > [**Miscellaneous 62**](#_bookmark61)
->
 > [accept 62](#_bookmark61)
->
 > [accept-charset 63](#description-97)
->
 > [action 63](#description-97)
->
 > [alt 64](#_bookmark63)
->
 > [async 64](#_bookmark63)
->
 > [autocomplete 65](#autocomplete)
->
-> *[Table of Contents]{.underline}*
->
+
+> *[Table of Contents]*
 > [autofocus 65](#autocomplete)
->
 > [autoplay 66](#_bookmark65)
->
 > [autosave 66](#_bookmark65)
->
 > [cite 66](#_bookmark65)
->
 > [cols 67](#_bookmark66)
->
 > [colspan 67](#_bookmark66)
->
 > [datetime 68](#_bookmark67)
->
 > [disabled 68](#_bookmark67)
->
 > [download 69](#description-110)
->
 > [content 69](#description-110)
->
 > [controls 70](#_bookmark69)
->
 > [for 70](#_bookmark69)
->
 > [form 71](#_bookmark70)
->
 > [formaction 71](#_bookmark70)
->
 > [height 72](#_bookmark71)
->
 > [href 72](#_bookmark71)
->
 > [hreflang 73](#_bookmark72)
->
 > [label 73](#_bookmark72)
->
 > [list 74](#_bookmark73)
->
 > [loop 74](#_bookmark73)
->
 > [max 75](#_bookmark74)
->
 > [maxlength 75](#_bookmark74)
->
 > [media 76](#_bookmark75)
->
 > [method 76](#_bookmark75)
->
 > [min 76](#_bookmark75)
->
 > [multiple 77](#_bookmark76)
->
 > [name 77](#_bookmark76)
->
 > [novalidate 78](#_bookmark77)
->
 > [pattern 78](#_bookmark77)
->
 > [placeholder 79](#_bookmark78)
->
 > [poster 79](#_bookmark78)
->
 > [readonly 79](#_bookmark78)
->
 > [rel 80](#_bookmark79)
->
 > [required 80](#_bookmark79)
->
 > [reversed 81](#description-136)
->
 > [rows 81](#description-136)
->
 > [rowspan 82](#_bookmark81)
->
 > [scope 82](#_bookmark81)
->
 > [selected 83](#_bookmark82)
->
 > [size 83](#_bookmark82)
->
 > [src 84](#_bookmark83)
 
-+---------------------------------------------------+------------------+
 |                                                   | *Table of        |
 |                                                   | Contents*        |
-+===================================================+==================+
 | > [start](#_bookmark83)                           | [8               |
 |                                                   | 4](#_bookmark83) |
-+---------------------------------------------------+------------------+
 | > [step](#_bookmark84)                            | [8               |
 |                                                   | 5](#_bookmark84) |
-+---------------------------------------------------+------------------+
 | > [type](#_bookmark84)                            | [8               |
 |                                                   | 5](#_bookmark84) |
 +---------------------------------------------------+------------------+
@@ -841,760 +611,410 @@
 |                                                   | ](#_bookmark109) |
 +---------------------------------------------------+------------------+
 
-> *[Table of Contents]{.underline}*
+> *[Table of Contents]*
 
 [:not or negation 110](#_bookmark109)
-
 [:optional and :required 111](#optional-and-required)
-
 [:lang() 111](#optional-and-required)
-
 > [Pseudo-elements 112](#_bookmark111)
-
 [::before and ::after 112](#_bookmark111)
-
 [::first-letter 113](#_bookmark112)
-
 [::first-line 113](#_bookmark112)
-
 [::selection 114](#_bookmark113)
-
 > [Generated content 114](#_bookmark113)
-
 [content 115](#_bookmark114)
-
 [Quotation marks 116](#_bookmark115)
 
 Chapter 4: [CSS Properties -- Part 1 117](#_bookmark116)
-
 > [Animation 118](#_bookmark117)
-
 [Base markup and CSS 118](#_bookmark117)
-
 [Final CSS code 130](#_bookmark129)
-
 [Background 131](#_bookmark130)
-
 [background-attachment 131](#_bookmark130)
-
 [background-blend-mode 132](#_bookmark131)
-
 [background-clip 134](#_bookmark132)
-
 [background-color 135](#_bookmark133)
-
 [background-image 136](#_bookmark134)
-
 [background-origin 138](#_bookmark136)
-
 [Box model 143](#_bookmark141)
-
 [width 143](#_bookmark141)
-
 [height 144](#_bookmark142)
-
 [padding 145](#_bookmark143)
-
 [margin 146](#_bookmark144)
-
 [border 148](#_bookmark146)
-
 [box-sizing 150](#_bookmark148)
-
 [max-height 150](#_bookmark148)
-
 [max-width 151](#description-212)
-
 [min-height 152](#_bookmark150)
-
 [min-width 153](#_bookmark151)
-
 [object-fit 154](#_bookmark152)
-
 [object-position 155](#_bookmark153)
-
 [Border radius 156](#_bookmark154)
-
 [border-radius 156](#_bookmark154)
-
 [Unit 158](#_bookmark156)
-
 [Relative length units 158](#_bookmark156)
-
 [Viewport-relative length units 161](#_bookmark159)
 
 Table of Contents
-
 [Absolute length units 162](#_bookmark160)
-
 [Angle data types 164](#_bookmark162)
-
 [Resolution units 165](#resolution-units)
-
 [Duration units 165](#resolution-units)
-
 [Column 166](#_bookmark164)
-
 [Flexible box (flexbox) 172](#_bookmark170)
-
 [flex-grow 173](#flex-grow)
-
 [flex-shrink 173](#flex-grow)
-
 [flex-basis 174](#_bookmark172)
-
 [flex-direction 175](#_bookmark173)
-
 [flex-wrap 176](#_bookmark174)
-
 [flex-flow 177](#_bookmark175)
-
 [align-content 178](#_bookmark176)
-
 [align-items 179](#_bookmark177)
-
 [align-self 180](#_bookmark178)
-
 [order 181](#_bookmark179)
-
 [justify-content 182](#_bookmark180)
-
 [flex 183](#space-around-1)
-
 [Summary 183](#space-around-1)
 
 Chapter 5: [CSS Properties -- Part 2 185](#_bookmark182)
 
 > [Fonts 185](#_bookmark182)
-
 [font-family 185](#_bookmark182)
-
 [font-feature-settings 186](#_bookmark183)
-
 [font-size 188](#_bookmark185)
-
 [font-size-adjust 189](#length-1)
-
 [font-stretch 190](#_bookmark187)
-
 [font-style 191](#_bookmark188)
-
 [font-variant 192](#_bookmark189)
-
 [font-variant-ligatures 192](#_bookmark189)
-
 [font-weight 193](#_bookmark190)
-
 [font 194](#_bookmark191)
 
-> [Transform 195](#_bookmark192)
-
+[Transform 195](#_bookmark192)
 [transform 195](#_bookmark192)
-
 [transform-origin 197](#_bookmark194)
-
 [transform-style 198](#_bookmark195)
-
 [Transition 199](#_bookmark196)
 
-> [Positioning 202](#_bookmark199)
-
+[Positioning 202](#_bookmark199)
 [position 202](#_bookmark199)
-
 [top 203](#relative)
 
-[Table of Contents]{.underline}
-
+[Table of Contents]
 [bottom 204](#_bookmark201)
-
 [left 205](#_bookmark202)
-
 [right 206](#_bookmark203)
-
 [vertical-align 207](#vertical-align)
-
 [Text 207](#vertical-align)
-
 [color 208](#_bookmark205)
-
 [text-align 208](#_bookmark205)
-
 [text-decoration 209](#_bookmark206)
-
 [text-decoration-line 210](#_bookmark207)
-
 [text-decoration-color 210](#_bookmark207)
-
 [text-decoration-style 211](#_bookmark208)
-
 [text-indent 211](#_bookmark208)
-
 [text-overflow 211](#_bookmark208)
-
 [text-rendering 212](#_bookmark209)
-
 [text-shadow 214](#_bookmark211)
-
 [text-transform 214](#_bookmark211)
-
 [text-underline-position 215](#description-273)
-
 [direction 216](#_bookmark213)
 
 [Tables 217](#tables-1)
-
 [table-layout 217](#tables-1)
-
 [border-collapse 218](#_bookmark215)
-
 [border-spacing 218](#_bookmark215)
-
 [empty-cells 219](#empty-cells)
-
 [caption-side 219](#empty-cells)
-
 [Words and paragraphs 220](#_bookmark217)
-
 [hyphens 220](#_bookmark217)
-
 [word-break 221](#_bookmark218)
-
 [word-spacing 222](#_bookmark219)
-
 [word-wrap 223](#word-wrap)
-
 [line-height 223](#word-wrap)
-
 [orphans 224](#_bookmark221)
-
 [quotes 225](#quotes)
-
 [widows 226](#_bookmark223)
-
 [writing-mode 226](#_bookmark223)
-
 [letter-spacing 227](#description-289)
-
 [white-space 228](#_bookmark225)
-
 [tab-size 229](#pre-line)
-
 [Paging 229](#pre-line)
-
 [page-break-after 230](#_bookmark227)
-
 [page-break-before 230](#_bookmark227)
-
 [page-break-inside 231](#_bookmark228)
 
 Table of Contents
 
 Chapter 6: [CSS Properties -- Part 3 233](#_bookmark229)
-
-> [Page box 233](#_bookmark229)
-
+[Page box 233](#_bookmark229)
 [bleed 233](#_bookmark229)
-
 [marks 234](#_bookmark230)
 
-> [List 234](#_bookmark230)
-
+[List 234](#_bookmark230)
 [list-style 235](#list-style)
-
 [list-style-type 235](#list-style)
-
 [list-style-position 236](#_bookmark232)
-
 [list-style-image 237](#_bookmark233)
 
 [Counter 237](#_bookmark233)
-
 [counter-reset 238](#_bookmark234)
-
 [counter-increment 239](#_bookmark235)
 
 [Drop shadows 240](#_bookmark236)
-
 [box-shadow 240](#_bookmark236)
-
 [Display and visibility 242](#_bookmark238)
-
 [all 242](#_bookmark238)
-
 [clear 243](#_bookmark239)
-
 [display 245](#_bookmark241)
-
 [opacity 247](#_bookmark243)
-
 [filter 248](#_bookmark244)
-
 [overflow 252](#_bookmark248)
-
 [overflow-x 253](#overflow-x)
-
 [overflow-y 253](#overflow-x)
-
 [visibility 254](#_bookmark250)
-
 [z-index 255](#z-index)
-
 [Masking and clipping 255](#z-index)
-
 [mask 256](#_bookmark252)
-
 [mask-clip 257](#_bookmark253)
-
 [mask-composite 258](#_bookmark254)
-
 [mask-image 259](#_bookmark255)
-
 [mask-mode 260](#_bookmark256)
-
 [mask-origin 260](#_bookmark256)
-
 [mask-position 261](#_bookmark257)
-
 [mask-repeat 262](#_bookmark258)
-
 [mask-size 263](#_bookmark259)
-
 [mask-type 264](#_bookmark260)
-
 [mask-border 264](#_bookmark260)
-
 [mask-border-source 264](#_bookmark260)
-
 [mask-border-mode 265](#_bookmark261)
-
 [mask-border-slice 265](#_bookmark261)
-
 [mask-border-width 266](#_bookmark262)
 
-[Table of Contents]{.underline}
-
+[Table of Contents]
 [mask-border-outset 267](#auto-4)
-
 [mask-border-repeat 268](#_bookmark264)
-
 [clip-path 268](#_bookmark264)
-
 [Image rendering and orientation 271](#_bookmark267)
-
 [image-orientation 272](#_bookmark268)
-
 [image-rendering 272](#_bookmark268)
-
 [User interface 273](#description-331)
-
 [cursor 273](#description-331)
-
 [pointer-events 276](#_bookmark271)
-
 [outline 277](#_bookmark272)
-
 3.  [Dimensional 278](#_bookmark273)
-
 [perspective 278](#_bookmark273)
-
 [perspective-origin 279](#_bookmark274)
-
 [backface-visibility 280](#_bookmark275)
-
 [Summary 280](#_bookmark275)
 
 Chapter 7: [CSS Functions 283](#_bookmark276)
-
-> [Filter 283](#_bookmark276)
-
+[Filter 283](#_bookmark276)
 [brightness() 283](#_bookmark276)
-
 [contrast() 284](#_bookmark277)
-
 [grayscale() 284](#_bookmark277)
-
 [invert() 285](#_bookmark278)
-
 [hue-rotate() 285](#_bookmark278)
-
 [blur() 286](#_bookmark279)
-
 [saturate() 286](#_bookmark279)
-
 [sepia() 286](#_bookmark279)
-
 [Transforms 287](#_bookmark280)
-
 [matrix() 287](#_bookmark280)
-
 [matrix3d() 288](#_bookmark281)
-
 [rotate() 288](#_bookmark281)
-
 [rotate3d() 289](#description-348)
-
 [rotateX() 289](#description-348)
-
 [rotateY() 290](#_bookmark283)
-
 [rotateZ() 291](#rotatez)
-
 [scale() 291](#rotatez)
-
 [scale3d() 292](#_bookmark285)
-
 [scaleX() 292](#_bookmark285)
-
 [scaleY() 293](#_bookmark286)
-
 [scaleZ() 293](#_bookmark286)
-
 [skew() 294](#_bookmark287)
-
 [skewX() 294](#_bookmark287)
 
 Table of Contents
 
 [skewY() 295](#description-359)
-
 [steps() 295](#description-359)
-
 [translate() 296](#_bookmark289)
-
 [translate3d() 297](#_bookmark290)
-
 [translateX() 297](#_bookmark290)
-
 [translateY() 298](#_bookmark291)
-
 [translateZ() 298](#_bookmark291)
-
 [Colors 299](#colors)
-
 [hsl() and hsla() 299](#colors)
-
 [rgb() and rgba() 300](#_bookmark293)
-
 [Gradients 300](#_bookmark293)
-
 [linear-gradient() 301](#_bookmark294)
-
 [radial-gradient() 302](#_bookmark295)
-
 [repeating-linear-gradient() 304](#_bookmark297)
-
 [repeating-radial-gradient() 305](#_bookmark298)
-
 [Values 306](#_bookmark299)
-
 [attr() 306](#_bookmark299)
-
 [Responsive Table 307](#_bookmark300)
-
 [calc() 308](#_bookmark301)
-
 [url() 309](#description-374)
-
 [cubic-bezier() 310](#_bookmark303)
-
 [Miscellaneous 312](#_bookmark305)
-
 [drop-shadow() 312](#_bookmark305)
-
 [element() 312](#_bookmark305)
-
 [image() 313](#_bookmark306)
-
 [opacity() 313](#_bookmark306)
-
 [perspective() 314](#_bookmark307)
-
 [rect() 314](#_bookmark307)
-
 [At-rules 315](#_bookmark308)
-
 [\@charset 315](#_bookmark308)
-
 [\@document() 316](#_bookmark309)
-
 [\@font-face 317](#_bookmark310)
-
 [\@import 320](#_bookmark313)
-
 [\@keyframes 321](#description-386)
-
 [\@media 323](#_bookmark316)
-
 [\@namespace 324](#_bookmark317)
-
 [\@page 325](#description-389)
-
 [\@supports 326](#_bookmark319)
-
 [Global CSS keyword values 328](#_bookmark321)
-
 [Summary 331](#_bookmark324)
 
-[Table of Contents]{.underline}
-
+[Table of Contents]
 Chapter 8: [JavaScript Implementations, Syntax Basics,](#_bookmark325)
-
 [and Variable Types 333](#_bookmark325)
-
-> [History of JavaScript 334](#_bookmark326)
-
+[History of JavaScript 334](#_bookmark326)
 [Evolution of JavaScript 335](#evolution-of-javascript)
-
 [JavaScript implementations 335](#evolution-of-javascript)
-
 [Core JavaScript (ECMAScript) 336](#_bookmark328)
-
 [Document object model (DOM) 336](#_bookmark328)
-
 [Browser object model (BOM) 337](#_bookmark329)
-
 [Client-side JavaScript 337](#_bookmark329)
-
 [Loading external JavaScript files
 339](#loading-external-javascript-files)
-
 [Server-side JavaScript 341](#_bookmark333)
-
 [The language syntax 344](#_bookmark336)
-
 [Language 345](#_bookmark337)
-
 [Type 345](#_bookmark337)
-
-> [The character set 345](#_bookmark337)
-
+[The character set 345](#_bookmark337)
 [Identifiers 351](#identifiers)
-
 [Reserved keywords 351](#identifiers)
-
 [Comments 353](#future-reserved-words)
-
 [Literals 354](#_bookmark346)
-
 [Statements 356](#_bookmark348)
-
 [Optional semicolon 359](#_bookmark351)
-
 > [Data type 360](#_bookmark352)
-
 [The typeof operator 361](#_bookmark353)
-
 [The undefined type 362](#_bookmark354)
-
 [The null type 363](#_bookmark355)
-
 [The number type 364](#_bookmark356)
-
 [The Boolean type 366](#_bookmark358)
-
 [The string type 367](#_bookmark359)
-
 [The object type 368](#_bookmark360)
-
 > [Variable, scope, and memory 369](#description-408)
-
 [Variable declaration 371](#_bookmark362)
-
 [The variable scope 372](#_bookmark363)
-
 [Primitive and reference values 373](#description-410)
-
 [The execution context and scope 374](#_bookmark365)
-
 [Garbage collection 375](#the-function-code)
 
 Chapter 9: [JavaScript Expressions, Operators,
-Statements,](#_bookmark368)
-
+tatements,](#_bookmark368)
 [and Arrays 377](#_bookmark368)
-
 > [Expressions 377](#_bookmark368)
-
 [Primary expressions 378](#_bookmark369)
-
 [Object initializer 379](#_bookmark370)
 
 Table of Contents
-
 [The function definition expression 380](#_bookmark371)
-
 [The property access expression 381](#_bookmark372)
-
 [The invocation expression 382](#_bookmark373)
-
 [The object creation expression 383](#the-object-creation-expression)
-
 [Evaluation expression 383](#the-object-creation-expression)
-
 [Operators 384](#_bookmark375)
-
 [Overview 384](#_bookmark375)
-
 [Arithmetic operators 385](#unary-operator)
-
 [Logical operators 390](#_bookmark381)
-
 [Assignment operators 393](#_bookmark384)
-
 [Exponentiation assignment (\*\*=) 396](#_bookmark387)
-
 [Relational operators 396](#_bookmark387)
-
 [Statements 400](#_bookmark391)
-
 [Expression statements 401](#_bookmark392)
-
 [Compound empty statements 401](#_bookmark392)
-
 [Declaration statements 402](#_bookmark393)
-
 [Conditional statements 403](#_bookmark394)
-
 [Loops 407](#_bookmark398)
-
 [Jumps and labeled statements 411](#jumps-and-labeled-statements)
-
 [Arrays 414](#_bookmark405)
-
 [Array types 414](#_bookmark405)
-
 [Array type object 415](#_bookmark406)
-
 [Creating arrays 415](#_bookmark406)
-
 [Reading and writing array elements 417](#_bookmark408)
-
 [Multidimensional arrays in JavaScript 417](#_bookmark408)
-
 [Properties in an array 418](#_bookmark409)
-
 [Array methods 419](#_bookmark410)
-
 [ECMA5 Array methods 426](#_bookmark417)
 
 Chapter 10: [JavaScript Object-Oriented Programming 433](#_bookmark422)
-
-> [Polymorphism 433](#_bookmark422)
-
+[Polymorphism 433](#_bookmark422)
 [Encapsulation 433](#_bookmark422)
-
 [Inheritance 434](#_bookmark423)
-
 [Abstraction 434](#_bookmark423)
-
-> [Objects 434](#_bookmark423)
-
+[Objects 434](#_bookmark423)
 [Creating objects 435](#_bookmark424)
-
 [Design patterns 436](#_bookmark425)
-
 [Property getter and setter 449](#_bookmark437)
-
 [Deleting properties 450](#_bookmark438)
-
 [Testing properties 450](#_bookmark438)
-
 [Enumerating properties 451](#_bookmark439)
 
-[Table of Contents]{.underline}
-
+[Table of Contents]
 [Property attributes 452](#_bookmark440)
-
 [Serializing objects 454](#_bookmark442)
-
 [Objects methods 454](#_bookmark442)
-
 [Functions and methods 455](#_bookmark443)
-
 [Invoking functions 455](#_bookmark443)
-
 [Defining functions 455](#_bookmark443)
-
 [Function arguments and parameters 456](#_bookmark444)
-
 [Parameters and return values 456](#_bookmark444)
-
 [Functions as namespace 457](#_bookmark445)
-
 [Closure 457](#_bookmark445)
-
 [Function properties 458](#_bookmark446)
-
 [Methods 458](#_bookmark446)
-
 [Function constructor 458](#_bookmark446)
-
 [Classes and modules 459](#classes-and-modules)
-
 [Classes and prototypes 459](#classes-and-modules)
-
 [Constructors 460](#_bookmark448)
-
 [Defining a class 461](#_bookmark449)
-
 [Classes in the ECMA5 script 462](#_bookmark450)
-
 [Modules 462](#_bookmark450)
-
 [Inheritance 463](#_bookmark451)
-
 [Prototype chaining 463](#_bookmark451)
-
 [Constructor stealing 464](#_bookmark452)
-
 [Combination inheritance 465](#_bookmark453)
-
 [Prototypal inheritance 466](#_bookmark454)
-
 [Parasitic inheritance 467](#_bookmark455)
-
 [Parasitic combination inheritance 468](#_bookmark456)
-
 [Subclasses 469](#subclasses)
-
 [Built-in objects 470](#_bookmark458)
-
 [Global objects 470](#_bookmark458)
-
 [Date object 471](#date-object)
-
 [Math object 475](#_bookmark463)
-
 [The RegExp object 478](#_bookmark466)
-
 [String object 480](#_bookmark468)
-
 [Array objects 484](#_bookmark472)
 
 Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
-
 > [Compatibility and goals 491](#_bookmark479)
-
 [JavaScript subset and extensions 493](#_bookmark480)
-
 [JavaScript subsets 493](#_bookmark480)
-
 [JavaScript extensions 496](#_bookmark483)
-
 [Const 496](#_bookmark483)
 
-+----------------------------------------------------+-----------------+
 |                                                    | *Table of       |
 |                                                    | Contents*       |
-+====================================================+=================+
 | > [Let](#let)                                      | [497](#let)     |
-+----------------------------------------------------+-----------------+
 | > [Destructuring assignment](#_bookmark485)        | [498]           |
 |                                                    | (#_bookmark485) |
-+----------------------------------------------------+-----------------+
 | > [For each](#_bookmark485)                        | [498]           |
 |                                                    | (#_bookmark485) |
-+----------------------------------------------------+-----------------+
 | > [Iterator](#_bookmark485)                        | [498]           |
 |                                                    | (#_bookmark485) |
 +----------------------------------------------------+-----------------+
@@ -1710,276 +1130,151 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 |                                                    | (#_bookmark541) |
 +----------------------------------------------------+-----------------+
 
-> *[Table of Contents]{.underline}*
->
+> *[Table of Contents]*
 > [The process module 559](#description-554)
->
 > [File functions 564](#_bookmark547)
->
 > [The path module 571](#description-573)
->
 > [REPL 574](#_bookmark557)
->
 > [Handling errors 575](#description-579)
->
 > [**Utilities 577**](#_bookmark560)
->
 > [Events 577](#_bookmark560)
->
 > [Crypto 580](#_bookmark563)
->
 > [Buffer 584](#_bookmark567)
->
 > [Console 589](#_bookmark572)
->
 > [npm (Node Package Manager) 591](#npm-node-package-manager)
->
 > [Stream 593](#_bookmark576)
->
 > [**The net module 598**](#_bookmark581)
->
 > [createServer 598](#_bookmark581)
->
 > [net.Server 599](#net.server)
->
 > [**The HTTP module 604**](#_bookmark587)
->
 > [createServer 604](#_bookmark587)
->
 > [http.Server 605](#_bookmark588)
->
 > [IncomingMessage 607](#_bookmark590)
->
 > [ServerResponse 609](#_bookmark592)
->
 > [http.request 611](#description-635)
->
 > [http.get 612](#_bookmark595)
->
 > [http.clientRequest 613](#_bookmark596)
 >
 > **[Chapter 13: [Bootstrap -- The Stylish CSS Frontend Framework
-> 615](#_bookmark598)]{.underline}**
->
+> 615](#_bookmark598)]**
 > [**Introduction to Bootstrap foundations 615**](#_bookmark598)
->
 > [**Getting started 617**](#getting-started)
->
 > [**Layouts 617**](#getting-started)
->
 > [**The grid system 620**](#_bookmark603)
->
 > [**Typography 624**](#_bookmark607)
->
 > [**Tables 627**](#blockquotes)
->
 > [**Lists 629**](#lists)
->
 > [**Forms in Bootstrap 630**](#_bookmark613)
->
 > [**Images 634**](#_bookmark617)
->
 > [**Navigation elements 636**](#_bookmark619)
->
 > [**The navigation bar 637**](#_bookmark620)
->
 > [**Panels 638**](#_bookmark621)
->
 > [**Breadcrumbs 639**](#basic-2)
->
 > [**Labels and badges 640**](#_bookmark623)
->
 > [**Pagination 640**](#_bookmark623)
 
 *Table of Contents*
 
 > [**Progress bars 641**](#_bookmark624)
->
 > [**Advanced Bootstrap/JavaScript plugins 642**](#_bookmark625)
->
 > [**Customizing Bootstrap 652**](#_bookmark635)
->
 > [**Websites built with Bootstrap 652**](#_bookmark635)
->
 > [**Bootstrap resources 653**](#bookmark636)
 >
 > **Chapter 14: [jQuery -- The Popular JavaScript Library
 > 655](#_bookmark638)**
->
 > [**The evolution of JQuery 655**](#_bookmark638)
->
 > [**Getting started 656**](#_bookmark639)
->
 > [Installing JQuery 656](#_bookmark639)
->
 > [**Using jQuery 656**](#_bookmark639)
->
 > [**Selectors 657**](#_bookmark640)
->
 > [Element selectors 658](#_bookmark641)
->
 > [ID selectors 658](#_bookmark641)
->
 > [Class selectors 659](#class-selectors)
->
 > [**Events 659**](#class-selectors)
->
 > [Mouse events 659](#class-selectors)
->
 > [Keyboard events 667](#_bookmark650)
->
 > [Form events 669](#_bookmark652)
->
 > [Document events 674](#_bookmark657)
->
 > [**Effects and animations 676**](#_bookmark659)
->
 > [Hide, show, and toggle 678](#_bookmark661)
->
 > [Fade 681](#_bookmark664)
->
 > [Sliding 685](#description-678)
->
 > [**Callback 688**](#_bookmark671)
->
 > [callbacks.add() 688](#_bookmark671)
->
 > [callbacks.fire() 689](#returns-148)
->
 > [callbacks.remove() 690](#_bookmark673)
->
 > [callbacks.disable() 690](#_bookmark673)
->
 > [**Chaining 691**](#description-685)
->
 > [**jQuery and the document object model 691**](#description-685)
->
 > [**jQuery traversing 692**](#_bookmark675)
->
 > [Ancestors 693](#_bookmark676)
->
 > [Descendants 694](#_bookmark677)
->
 > [Siblings 695](#_bookmark678)
->
 > [Filtering 699](#_bookmark682)
->
 > [**Using AJAX in jQuery 701**](#parameters-103)
->
 > [The jQuery Ajax load 701](#parameters-103)
->
 > [jQuery Ajax Get 702](#_bookmark685)
->
 > [jQuery Ajax Post 703](#_bookmark686)
->
-> *[Table of Contents]{.underline}*
->
+
+> *[Table of Contents]
 > [**Miscellaneous jQuery functions 704**](#_bookmark687)
->
 > [noConflict() 704](#_bookmark687)
->
 > [param() 704](#_bookmark687)
->
 > [index() 705](#parameters-108)
->
 > [each() 706](#_bookmark689)
->
 > [data() 707](#data-1)
->
 > [removeData() 707](#data-1)
->
 > [**jQuery plugins 708**](#_bookmark691)
->
 > [**jQuery resources 709**](#_bookmark692)
 >
 > **[Chapter 15: [AngularJS -- Google\'s In-Demand Framework
-> 711](#_bookmark693)]{.underline}**
->
+> 711](#_bookmark693)]**
 > [**Modules (ngApp) 712**](#_bookmark694)
->
 > [module 712](#_bookmark694)
->
 > [config 713](#_bookmark695)
->
 > [run 714](#_bookmark696)
->
 > [**Routing (ngRoute) 715**](#routing-ngroute)
->
 > [ngView 715](#routing-ngroute)
->
 > [\$routeProvider 715](#routing-ngroute)
->
 > [\$route 716](#_bookmark698)
->
 > [\$routeParams 717](#description-716)
->
 > [**Dependency injection 718**](#_bookmark700)
->
 > [Dependency injection in Angular 718](#_bookmark700)
->
 > [injector 719](#_bookmark701)
->
 > [\$injector 719](#_bookmark701)
->
 > [**Controllers 720**](#_bookmark702)
->
 > [ngController 721](#ngcontroller)
->
 > [\$scope 721](#ngcontroller)
->
 > [Data binding and templates 722](#_bookmark704)
->
 > [Event binding 722](#_bookmark704)
->
 > [**Scope 722**](#_bookmark704)
->
 > [Digest cycle 722](#_bookmark704)
->
 > [\$digest 723](#_bookmark705)
->
 > [\$watch 723](#_bookmark705)
->
 > [\$apply 724](#_bookmark706)
->
 > [Hierarchies 725](#description-722)
->
 > [**Services 725**](#description-722)
->
 > [Factory 726](#_bookmark708)
->
 > [Service 727](#_bookmark709)
->
 > [Provider 728](#_bookmark710)
->
 > [Value 729](#_bookmark711)
 
-+-----------------------------------------------+----------------------+
 |                                               | *Table of Contents*  |
-+===============================================+======================+
 | > [Constant](#_bookmark712)                   | [730](#_bookmark712) |
-+-----------------------------------------------+----------------------+
 | > [\$http](#_bookmark712)                     | [730](#_bookmark712) |
-+-----------------------------------------------+----------------------+
 | > [Convenience methods](#_bookmark713)        | [731](#_bookmark713) |
-+-----------------------------------------------+----------------------+
 | > [Notable services](#notable-services)       | [733                 |
 |                                               | ](#notable-services) |
-+-----------------------------------------------+----------------------+
 | > [**Promises**](#notable-services)           | [**733**             |
 |                                               | ](#notable-services) |
-+-----------------------------------------------+----------------------+
 | > [\$q](#_bookmark716)                        | [734](#_bookmark716) |
-+-----------------------------------------------+----------------------+
 | > [**Expressions**](#_bookmark717)            | [**7                 |
 |                                               | 35**](#_bookmark717) |
-+-----------------------------------------------+----------------------+
 | > [Expressions in JavaScript](#_bookmark717)  | [735](#_bookmark717) |
-+-----------------------------------------------+----------------------+
 | > [**Directives**](#_bookmark718)             | [**7                 |
 |                                               | 36**](#_bookmark718) |
-+-----------------------------------------------+----------------------+
 | > [Normalization](#_bookmark718)              | [736](#_bookmark718) |
-+-----------------------------------------------+----------------------+
 | > [Scope](#_bookmark718)                      | [736](#_bookmark718) |
 +-----------------------------------------------+----------------------+
 | > [Modifying DOM](#_bookmark721)              | [739](#_bookmark721) |
@@ -2071,7 +1366,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > page box, lists, counters, drop shadows, display and visibility,
 > clipping and masking, user interface, and 3D.
 >
-> *[Preface]{.underline}*
+> *[Preface]
 >
 > *Chapter 7*, *CSS Functions*, covers functions for filters,
 > transforms, colors, gradients, and values. It covers a few extra
@@ -2179,7 +1474,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > between different kinds of information. Here are some examples of
 > these styles and an explanation of their meaning.
 >
-> *[Preface]{.underline}*
+> *[Preface]*
 >
 > Code words in text, database table names, folder names, filenames,
 > file extensions, pathnames, dummy URLs, user input, and Twitter
@@ -2218,11 +1513,11 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > in the text like this: \"Clicking the **Next** button moves you to the
 > next screen.\"
 >
-> ![](./images-ref/media/image7.png){width="0.41783573928258966in"
+> ![](./images/image007.png){width="0.41783573928258966in"
 > height="0.33658683289588803in"} Warnings or important notes appear in
 > a box like this.
 >
-> ![](./images-ref/media/image8.png){width="0.31994313210848646in"
+> ![](./images/image008.png){width="0.31994313210848646in"
 > height="0.39964348206474193in"}Tips and tricks appear like this.
 
 ## Reader feedback
@@ -2356,7 +1651,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > beyond the specifications, you can and will run into strange rendering
 > issues.
 >
-> ![](./images-ref/media/image9.png){width="0.4178423009623797in"
+> ![](./images/image009.png){width="0.4178423009623797in"
 > height="0.3365758967629046in"}All HTML elements will have global
 > attributes. The attributes listed for each element in the sections
 > that follow are the attributes beyond the global attributes.
@@ -2367,7 +1662,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 >
 > \<!DOCTYPE documentType\>
 >
-> []{#_bookmark2 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark2 .anchor}*[HTML Elements]*
 
 ### Attributes
 
@@ -2469,7 +1764,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 >
 > \<title\>\</title\>
 >
-> []{#_bookmark4 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark4 .anchor}*[HTML Elements]*
 
 ##### Description
 
@@ -2560,7 +1855,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > The meta tag has many nonstandard applications. The standardized
 > applications can be viewed in *Chapter 2*, *HTML Attributes*.
 >
-> ![](./images-ref/media/image10.png){width="0.417836832895888in"
+> ![](./images/image010.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}Apple has many meta tags that will pass
 > information to an iOS device. You can set a reference to an App Store
 > application, set an icon, or display the page in the full screen mode,
@@ -2583,7 +1878,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 >
 > element.
 >
-> []{#_bookmark6 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark6 .anchor}*[HTML Elements]*
 
 #### style
 
@@ -2692,7 +1987,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 -   type: This defines the type of the script that defaults to
     JavaScript if the attribute is omitted.
 
-> []{#_bookmark8 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark8 .anchor}*[HTML Elements]*
 
 ##### Description
 
@@ -2793,7 +2088,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 >
 > \<section\>\</section\>
 >
-> []{#_bookmark10 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark10 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -2915,7 +2210,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > goes up, that is, h6 is the least important level of heading in the
 > example that follows.
 >
-> []{#_bookmark12 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark12 .anchor}*[HTML Elements]*
 >
 > Here is an example using all the headings:
 >
@@ -3025,7 +2320,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 
 ####### [www.allitebooks.com](http://www.allitebooks.org/)
 
-> []{#_bookmark14 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark14 .anchor}*[HTML Elements]*
 
 ### aside {#aside-1}
 
@@ -3128,7 +2423,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > The cite attribute is used in the blockquote element to point to the
 > URL of the cited document.
 >
-> []{#_bookmark16 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark16 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -3233,7 +2528,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > The value attribute is used in the li element with the ol element and
 > it is the value of the item in the ordered list.
 >
-> []{#_bookmark18 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark18 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -3345,7 +2640,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > You can also refer to the dl and dd elements to find out more about
 > the dd element.
 >
-> []{#_bookmark20 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark20 .anchor}*[HTML Elements]*
 
 ### figure {#figure-1}
 
@@ -3452,7 +2747,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 > aside, footer, header, or nav elements. This differs from an article,
 > in that, an article should be a self- contained element.
 >
-> []{#_bookmark22 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark22 .anchor}*[HTML Elements]*
 >
 > Here is an example of the main element in use:
 >
@@ -3560,7 +2855,7 @@ Chapter 11: [Extending JavaScript and ECMAScript 6 491](#_bookmark479)
 >
 > \<bdo dir\>\</bdo\>
 >
-> []{#_bookmark24 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark24 .anchor}*[HTML Elements]*
 
 #### Attributes
 
@@ -3657,7 +2952,7 @@ Here is an example:
 > phrase. By default, browsers will render this in italic font, but it
 > should not just be used for italics.
 >
-> []{#_bookmark26 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark26 .anchor}*[HTML Elements]*
 
 ### kbd {#kbd-1}
 
@@ -3750,7 +3045,7 @@ Here is an example:
 >
 > \<small\>\</small\>
 >
-> []{#_bookmark28 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark28 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -3847,7 +3142,7 @@ Here is an example:
 > The party is on \<time datetime=\"2014-11-27 14:00\"\> Thanksgiving @
 > 2PM\</time\>
 >
-> []{#_bookmark30 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark30 .anchor}*[HTML Elements]*
 
 ### var {#var-1}
 
@@ -3951,9 +3246,9 @@ Here is an example:
 > image. The pixel descriptor tells the browser the pixel density it
 > should use for the image.
 >
-> []{#_bookmark32 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark32 .anchor}*[HTML Elements]*
 >
-> ![](./images-ref/media/image11.png){width="0.41784120734908137in"
+> ![](./images/image011.png){width="0.41784120734908137in"
 > height="0.33658683289588803in"}The width descriptor can also be used
 > by the browser when the pixel density changes. For example, if you
 > have an image that is double the resolution and the pixel density
@@ -3967,7 +3262,7 @@ Here is an example:
 > browser know where you want a break point and how large you want the
 > image to be.
 >
-> ![](./images-ref/media/image12.png){width="0.41784120734908137in"
+> ![](./images/image012.png){width="0.41784120734908137in"
 > height="0.33657152230971127in"}The best way to think about srcset is
 > that you are letting the browser know about all the images that can be
 > used in a specific img element. You include the information that the
@@ -4053,7 +3348,7 @@ Here is an example:
 
 -   width: This is an attribute to set the width
 
-> []{#_bookmark34 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark34 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -4165,7 +3460,7 @@ Here is an example:
     on modifying the video in a canvas and the video is not hosted at
     the same fully qualified domain name
 
-> []{#_bookmark36 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark36 .anchor}*[HTML Elements]*
 
 -   height: This is the attribute to set the height
 
@@ -4278,7 +3573,7 @@ Here is an example:
 >
 > \<source src type /\>
 >
-> []{#_bookmark38 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark38 .anchor}*[HTML Elements]*
 
 #### Attributes
 
@@ -4386,7 +3681,7 @@ Here is an example:
 >
 > \<caption\>\</caption\>
 >
-> []{#_bookmark40 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark40 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -4497,7 +3792,7 @@ Here is an example:
 >
 > \<tfoot\>\</tfoot\>
 >
-> []{#_bookmark42 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark42 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -4621,7 +3916,7 @@ Here is an example:
 -   rowspan: This states the number of rows the rowspan attribute will
     span as an integer
 
-> []{#_bookmark44 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark44 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -4741,7 +4036,7 @@ Here is an example:
 >
 > \</form\>
 >
-> []{#_bookmark46 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark46 .anchor}*[HTML Elements]*
 
 #### See also
 
@@ -4852,7 +4147,7 @@ Here is an example:
 
 -   max: This is the maximum number or date-time of the system.
 
-> []{#_bookmark48 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark48 .anchor}*[HTML Elements]*
 
 -   maxlength: This is the maximum number of characters that can be
     accepted in the web page.
@@ -4969,7 +4264,7 @@ Here is an example:
 > \<button autofocus disabled form formaction formenctype formmethod
 > formnovalidate formtarget name type value\>\</button\>
 >
-> []{#_bookmark50 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark50 .anchor}*[HTML Elements]*
 
 #### Attributes
 
@@ -5078,7 +4373,7 @@ Here is an example:
 > children of this element need to be the option elements. They are not
 > selectable and do not have a value.
 >
-> []{#_bookmark52 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark52 .anchor}*[HTML Elements]*
 >
 > Here is an example of the outgroup element with car makes and models:
 >
@@ -5195,7 +4490,7 @@ Here is an example:
 
 -   wrap: This states how the lines are wrapped.
 
-> []{#_bookmark54 .anchor}*[HTML Elements]{.underline}*
+> []{#_bookmark54 .anchor}*[HTML Elements]*
 
 #### Description
 
@@ -5324,7 +4619,7 @@ Here is an example:
 >
 > \<input type=\"search\" name=\"q\" accesskey=\"q\"/\>
 >
-> []{#_bookmark57 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark57 .anchor}*[HTML Attributes]*
 
 ### class {#class-1}
 
@@ -5427,7 +4722,7 @@ Here is an example:
 >
 > \<div draggable=\"true\"\>You can drag me.\</div\>
 >
-> []{#_bookmark59 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark59 .anchor}*[HTML Attributes]*
 
 #### hidden
 
@@ -5526,7 +4821,7 @@ Here is an example:
 >
 > \<element tabindex\>\</element\>
 >
-> []{#_bookmark61 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark61 .anchor}*[HTML Attributes]*
 
 #### Description
 
@@ -5632,7 +4927,7 @@ Here is an example:
 
 ####### [www.allitebooks.com](http://www.allitebooks.org/)
 
-> []{#_bookmark63 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark63 .anchor}*[HTML Attributes]*
 
 ### alt {#alt-1}
 
@@ -5730,7 +5025,7 @@ Here is an example:
 >
 > \<input type=\"text\" autofocus/\>
 >
-> []{#_bookmark65 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark65 .anchor}*[HTML Attributes]*
 
 ### autoplay {#autoplay-1}
 
@@ -5827,7 +5122,7 @@ Here is an example:
 
 > The td and th elements are used in the colspan attribute.
 >
-> []{#_bookmark67 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark67 .anchor}*[HTML Attributes]*
 
 #### Description
 
@@ -5918,7 +5213,7 @@ Here is an example:
 
 > The meta element is used in the content attribute.
 >
-> []{#_bookmark69 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark69 .anchor}*[HTML Attributes]*
 
 #### Description
 
@@ -6018,7 +5313,7 @@ Here is an example:
 > element within the form (for example, button), this overrides the
 > declared value on the form itself.
 >
-> []{#_bookmark71 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark71 .anchor}*[HTML Attributes]*
 >
 > Here is an example with a button:
 >
@@ -6047,7 +5342,7 @@ Here is an example:
 > listed in the previous section should use this attribute and all other
 > elements should use CSS to set their height.
 >
-> ![](./images-ref/media/image13.png){width="0.4178423009623797in"
+> ![](./images/image013.png){width="0.4178423009623797in"
 > height="0.33658683289588803in"}You may see many HTML documents that
 > use height on many elements. This is not valid anymore and CSS should
 > be used to set the height on any other elements.
@@ -6108,7 +5403,7 @@ Here is an example:
 
 > The track element is used in the label attribute.
 >
-> []{#_bookmark73 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark73 .anchor}*[HTML Attributes]*
 
 #### Description
 
@@ -6200,7 +5495,7 @@ Here is an example:
 >
 > \<input type=\"text\" maxlength=\"5\"\>
 >
-> []{#_bookmark75 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark75 .anchor}*[HTML Attributes]*
 
 ### media {#media-1}
 
@@ -6303,7 +5598,7 @@ Here is an example:
 >
 > elements are used in the name attribute.
 >
-> []{#_bookmark77 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark77 .anchor}*[HTML Attributes]*
 
 #### Description
 
@@ -6401,7 +5696,7 @@ Here is an example:
 >
 > \<element readonly \>\</element\>
 >
-> []{#_bookmark79 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark79 .anchor}*[HTML Attributes]*
 
 #### Elements
 
@@ -6502,7 +5797,7 @@ Here is an example:
 
 > The textarea element is used in the rows attribute.
 >
-> []{#_bookmark81 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark81 .anchor}*[HTML Attributes]*
 
 #### Description
 
@@ -6602,7 +5897,7 @@ Here is an example:
 
 > The input and select elements are used in the size attribute.
 >
-> []{#_bookmark83 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark83 .anchor}*[HTML Attributes]*
 
 #### Description
 
@@ -6687,7 +5982,7 @@ Here is an example:
 >
 > \<element type \>\</element\>
 >
-> []{#_bookmark85 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark85 .anchor}*[HTML Attributes]*
 
 #### Elements
 
@@ -6766,7 +6061,7 @@ Here is an example:
 
 > The width attribute sets the width of the element.
 >
-> ![](./images-ref/media/image14.png){width="0.4178423009623797in"
+> ![](./images/image014.png){width="0.4178423009623797in"
 > height="0.33658683289588803in"}You may see many HTML documents that
 > use width on many elements. This is not valid any more; CSS should be
 > used to set the width on any other elements.
@@ -6785,7 +6080,7 @@ Here is an example:
 
 > The textarea element is used in the wrap attribute.
 >
-> []{#_bookmark87 .anchor}*[HTML Attributes]{.underline}*
+> []{#_bookmark87 .anchor}*[HTML Attributes]*
 
 #### Description
 
@@ -6832,7 +6127,7 @@ Applications
 > We will get started with a quick overview of the different types of
 > basic selectors.
 >
-> []{#_bookmark89 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark89 .anchor}*[CSS Concepts and Applications]*
 
 ## Basic selectors
 
@@ -6846,7 +6141,7 @@ Applications
 > The basic selectors are either type selectors, universal selectors,
 > attribute selectors, class selectors, ID selectors, or pseudo-classes.
 >
-> ![](./images-ref/media/image15.png){width="0.417836832895888in"
+> ![](./images/image015.png){width="0.417836832895888in"
 > height="0.3365758967629046in"}All CSS selectors are case-insensitive.
 > Selectors can also be grouped together to share rules. To group
 > selectors, you just have to split them with commas. Consider the
@@ -6927,7 +6222,7 @@ Applications
 >
 > \* { padding: 0; }
 >
-> []{#_bookmark91 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark91 .anchor}*[CSS Concepts and Applications]*
 
 ### The attribute selectors
 
@@ -7019,7 +6314,7 @@ Applications
 > The class selector can be stacked so that both classes will have to be
 > present.
 >
-> []{#_bookmark93 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark93 .anchor}*[CSS Concepts and Applications]*
 >
 > Here is some HTML with different elements that have a class attribute:
 >
@@ -7122,7 +6417,7 @@ Applications
 >
 > ol#presidents img { border: 1px solid #ff0000; }
 >
-> []{#_bookmark95 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark95 .anchor}*[CSS Concepts and Applications]*
 >
 > Here is an example that demonstrates that there can be many elements
 > between selectors. Here is the very arbitrary HTML.
@@ -7240,7 +6535,7 @@ Applications
 >
 > span \~ span { color: #ff0000; }
 >
-> []{#_bookmark97 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark97 .anchor}*[CSS Concepts and Applications]*
 
 ### The selector specificity
 
@@ -7351,7 +6646,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > a:link { color: #ff0000; } a:visited { color: #00ff00; }
 >
-> []{#_bookmark99 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark99 .anchor}*[CSS Concepts and Applications]*
 
 #### :visited
 
@@ -7461,7 +6756,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > This only selects nodes that are elements and does not include text
 > that is not inside an element. The numbering is 1-based indexing.
 >
-> []{#_bookmark101 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark101 .anchor}*[CSS Concepts and Applications]*
 
 ### :first-child
 
@@ -7577,7 +6872,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > p:last-of-type { color: #ff0000; }
 >
-> []{#_bookmark103 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark103 .anchor}*[CSS Concepts and Applications]*
 
 ### :nth-child()
 
@@ -7693,7 +6988,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > \<p\>Third\</p\>
 >
-> []{#_bookmark105 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark105 .anchor}*[CSS Concepts and Applications]*
 >
 > Here is the CSS. This rule will only target the paragraphs and make
 > the odd ones red:
@@ -7809,7 +7104,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > :default
 >
-> []{#_bookmark107 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark107 .anchor}*[CSS Concepts and Applications]*
 
 #### Description
 
@@ -7924,7 +7219,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > :out-of-range { color: #ff0000; }
 >
-> []{#_bookmark109 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark109 .anchor}*[CSS Concepts and Applications]*
 
 ### :invalid and :valid
 
@@ -8032,7 +7327,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > \</body\>
 >
-> []{#_bookmark111 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark111 .anchor}*[CSS Concepts and Applications]*
 >
 > Here is the CSS. The first rule will match the element, but the second
 > will not
@@ -8053,7 +7348,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > pseudo-element as part of the :not() selector. Finally, only one
 > pseudo-element can be present per selector.
 >
-> ![](./images-ref/media/image16.png){width="0.41783792650918633in"
+> ![](./images/image016.png){width="0.41783792650918633in"
 > height="0.3365780839895013in"}Note that all of the pseudo-elements
 > start with a double colon (::). This was introduced in CSS3 to help
 > differentiate between pseudo-classes that have a single colon (:).
@@ -8116,7 +7411,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > This only applies to block-like containers such as block, list-item,
 > table-cell, table-caption, and inline-block elements.
 >
-> ![](./images-ref/media/image17.png){width="0.417836832895888in"
+> ![](./images/image017.png){width="0.417836832895888in"
 > height="0.336576990376203in"}The ::first-letter pseudo-element will
 > only match if the first letter is on the first formatted line. If
 > there is a line break before the first letter appears, it will not be
@@ -8146,7 +7441,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > ::first-line
 >
-> []{#_bookmark113 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark113 .anchor}*[CSS Concepts and Applications]*
 
 #### Description
 
@@ -8250,7 +7545,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > \<blockquote\>Don\'t quote me on this.\</blockquote\>
 >
-> []{#_bookmark115 .anchor}*[CSS Concepts and Applications]{.underline}*
+> []{#_bookmark115 .anchor}*[CSS Concepts and Applications]*
 >
 > Here is the CSS. The h1 elements will have the word \"chapter\" along
 > with a number before each. The h2 element will have a line break in
@@ -8336,7 +7631,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > these two browsers do not use the Webkit engine anymore. Their engine
 > is called Blink and is developed by Google.
 >
-> []{#_bookmark117 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark117 .anchor}*[CSS Properties -- Part 1]*
 >
 > A basic example of a prefixed CSS property is column-gap:
 >
@@ -8409,7 +7704,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > \@keyframes fadingColors will remain the same.
 >
-> ![](./images-ref/media/image18.png){width="0.3199507874015748in"
+> ![](./images/image018.png){width="0.3199507874015748in"
 > height="0.39963582677165355in"}The \@keyframes declaration block is a
 > custom animation that can be applied to any element. When applied, the
 > element\'s background will go from red to black.
@@ -8443,7 +7738,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > with it at all. The thing is that the animation won\'t run unless we
 > add animation-duration to it.
 >
-> []{#_bookmark119 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark119 .anchor}*[CSS Properties -- Part 1]*
 
 #### animation-duration
 
@@ -8557,7 +7852,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> []{#_bookmark121 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark121 .anchor}*[CSS Properties -- Part 1]*
 
 #### animation-delay
 
@@ -8656,7 +7951,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > There are two values: running and paused. These values are
 > self-explanatory.
 >
-> []{#_bookmark123 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark123 .anchor}*[CSS Properties -- Part 1]*
 >
 > **CSS**:
 >
@@ -8741,9 +8036,9 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > Here\'s what a Bézier curve looks like:
 
-![](./images-ref/media/image19.png)
+![](./images/image019.png)
 
-> []{#_bookmark125 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark125 .anchor}*[CSS Properties -- Part 1]*
 
 ###### Parameters
 
@@ -8780,7 +8075,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > it, and wait for the live refresh to do its thing. However, that\'s
 > too much time wasted testing if you ask me.
 >
-> ![](./images-ref/media/image20.png){width="0.3199507874015748in"
+> ![](./images/image020.png){width="0.3199507874015748in"
 > height="0.39963582677165355in"}The amazing Lea Verou created the best
 > web app to work with Bézier curves. You can find it at
 > cubic-bezier.com. This is by far the easiest way to work with Bézier
@@ -8845,7 +8140,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > This makes the box take six steps to fade from red to black and vice
 > versa.
 >
-> []{#_bookmark127 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark127 .anchor}*[CSS Properties -- Part 1]*
 
 ###### Parameters
 
@@ -8893,7 +8188,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 
 []{#_bookmark128 .anchor}*Chapter 4*
 
-![](./images-ref/media/image21.png)
+![](./images/image0021.png)
 
 > Also, there are two predefined values for the steps() function:
 > step-start and
@@ -8921,7 +8216,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> []{#_bookmark129 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark129 .anchor}*[CSS Properties -- Part 1]*
 
 #### animation
 
@@ -8999,7 +8294,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> ![](./images-ref/media/image22.png){width="0.31995188101487315in"
+> ![](./images/image022.png){width="0.31995188101487315in"
 > height="0.3996489501312336in"}The animation-duration property will
 > always be considered first rather than animation-delay. All other
 > properties can appear in any order within the declaration.
@@ -9021,7 +8316,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > background-attachment: fixed;
 >
-> []{#_bookmark131 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark131 .anchor}*[CSS Properties -- Part 1]*
 
 #### Description
 
@@ -9141,7 +8436,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> []{#_bookmark132 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark132 .anchor}*[CSS Properties -- Part 1]*
 
 ######## CSS with shorthand:
 
@@ -9152,7 +8447,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> ![](./images-ref/media/image23.png){width="0.3199496937882765in"
+> ![](./images/image023.png){width="0.3199496937882765in"
 > height="0.3996576990376203in"}Notice that in the second example, the
 > path to the image is not inside quotes. The quotes, single \[\'\'\] or
 > double \[\"\"\], are optional.
@@ -9221,7 +8516,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 
 > Also, transparent is actually a color in CSS.
 >
-> ![](./images-ref/media/image24.png){width="0.31995188101487315in"
+> ![](./images/image024.png){width="0.31995188101487315in"
 > height="0.3996402012248469in"}If we wanted to set a gradient
 > background color, we\'d have to use the background-image property
 > instead. This is because gradients are actually images.
@@ -9262,7 +8557,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> []{#_bookmark134 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark134 .anchor}*[CSS Properties -- Part 1]*
 >
 > /\*RGBa\*/
 >
@@ -9389,7 +8684,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> []{#_bookmark136 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark136 .anchor}*[CSS Properties -- Part 1]*
 
 ### background-origin {#background-origin-1}
 
@@ -9511,7 +8806,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 
 > background-repeat: no-repeat;
 >
-> []{#_bookmark138 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark138 .anchor}*[CSS Properties -- Part 1]*
 >
 > Alternatively, it could also look like this:
 >
@@ -9636,7 +8931,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> []{#_bookmark140 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark140 .anchor}*[CSS Properties -- Part 1]*
 >
 > .multiple { background-image:
 >
@@ -9751,7 +9046,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 
 > This is when we use percentages such as 50%, 85%, and so on.
 >
-> []{#_bookmark142 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark142 .anchor}*[CSS Properties -- Part 1]*
 
 ##### auto
 
@@ -9866,7 +9161,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > padding: 10px 15px;
 >
-> []{#_bookmark144 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark144 .anchor}*[CSS Properties -- Part 1]*
 
 #### Description
 
@@ -9984,7 +9279,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > elements have top and bottom margins, the margins are not added.
 > Instead, the larger value is the only one taken into account.
 >
-> []{#_bookmark146 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark146 .anchor}*[CSS Properties -- Part 1]*
 >
 > For example, we have an \<h1\> heading and a \<p\> paragraph. The
 > heading has a bottom margin of 20px, and the paragraph has a top
@@ -10081,7 +9376,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> []{#_bookmark148 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark148 .anchor}*[CSS Properties -- Part 1]*
 
 ### box-sizing {#box-sizing-1}
 
@@ -10200,7 +9495,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > The most used values are a *length* value and a *percentage* value.
 >
-> []{#_bookmark150 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark150 .anchor}*[CSS Properties -- Part 1]*
 
 ##### Length value
 
@@ -10316,7 +9611,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > max-width: 75px;
 >
-> []{#_bookmark152 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark152 .anchor}*[CSS Properties -- Part 1]*
 >
 > /\*This property overrides width and max-width\*/ min-width: 300px;
 >
@@ -10361,7 +9656,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > aspect ratios. The object-fit CSS property can help us have control of
 > the thumbnails in such a situation.
 >
-> ![](./images-ref/media/image25.png){width="0.3199486001749781in"
+> ![](./images/image025.png){width="0.3199486001749781in"
 > height="0.39964348206474193in"}The content inside the replaced element
 > is centered vertically and horizontally by default. However, the
 > content can be repositioned using the object-position property.
@@ -10435,7 +9730,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > replaced element is placed in the center of the content box, which is
 > 50% 50%.
 >
-> []{#_bookmark154 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark154 .anchor}*[CSS Properties -- Part 1]*
 >
 > Now, this property behaves similarly to the background-position CSS
 > property. This means, we can declare either *one* or *two* values.
@@ -10485,7 +9780,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > *Chapter 4*
 >
-> ![](./images-ref/media/image26.png)
+> ![](./images/image026.png)
 >
 > There are two values: a *length* value and a *percentage* value.
 
@@ -10501,7 +9796,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > We can use, one, two, three, or four values in the same declaration.
 > We can also use a slash symbol, \"/\", to separate groups of values.
 >
-> ![](./images-ref/media/image27.png){width="0.31994641294838144in"
+> ![](./images/image027.png){width="0.31994641294838144in"
 > height="0.3996522309711286in"}Sometimes, the background color or
 > texture \"bleeds\" over the rounded corners in some browsers. Use
 > background-clip to fix this issue.
@@ -10524,7 +9819,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > /\*Two values: top-left-and-bottom-right - top-right-and-bottom-
 > left\*/
 >
-> []{#_bookmark156 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark156 .anchor}*[CSS Properties -- Part 1]*
 >
 > .element-1 { border-radius: 70px 7px; }
 >
@@ -10636,7 +9931,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > avoid the inheritance issue em units have in nested elements (3-4 or
 > more levels deep).
 >
-> []{#_bookmark158 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark158 .anchor}*[CSS Properties -- Part 1]*
 >
 > **CSS**:
 >
@@ -10751,7 +10046,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > its width. The value of vmin is 1/100th of the side with the smallest
 > length of the viewport.
 >
-> []{#_bookmark160 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark160 .anchor}*[CSS Properties -- Part 1]*
 >
 > For example, if we declare the font-size of an element as 1vmin and
 > the browser\'s viewport is 600 × 800, the font size is then 6px.
@@ -10860,7 +10155,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > .element { font-size: 16px; }
 >
-> []{#_bookmark162 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark162 .anchor}*[CSS Properties -- Part 1]*
 
 ### Angle data types
 
@@ -10977,9 +10272,9 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > These units are quite straightforward and are only used in CSS
 > animations.
 >
-> []{#_bookmark164 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark164 .anchor}*[CSS Properties -- Part 1]*
 >
-> ![](./images-ref/media/image28.png){width="0.3199486001749781in"
+> ![](./images/image028.png){width="0.3199486001749781in"
 > height="0.3996576990376203in"}You may think that because all other
 > units use two, three, or four letters in their abbreviation (px, dip,
 > dpcm, and so on). Always remember: when declaring the seconds unit
@@ -11084,7 +10379,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
     content will just keep flowing outside the parent container if the
     parent container becomes too small.
 
-> []{#_bookmark166 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark166 .anchor}*[CSS Properties -- Part 1]*
 >
 > **CSS**:
 >
@@ -11205,7 +10500,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > Colors can be defined in any format: HEX, RGB, or HSL. It also
 > supports alpha channel, so RGBa and HSLa are allowed.
 >
-> []{#_bookmark168 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark168 .anchor}*[CSS Properties -- Part 1]*
 >
 > **CSS**:
 >
@@ -11325,7 +10620,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 >
 > }
 >
-> []{#_bookmark170 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark170 .anchor}*[CSS Properties -- Part 1]*
 
 ## Flexible box (flexbox)
 
@@ -11338,7 +10633,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > only because it can be easier to work with and wrap our heads around
 > its concepts, but also because it may result in less markup and CSS.
 >
-> ![](./images-ref/media/image29.png){width="0.31995188101487315in"
+> ![](./images/image029.png){width="0.31995188101487315in"
 > height="0.3996336395450569in"}A powerful partner to Flexbox is the
 > Grid Layout, which is still in its early stages of development, and
 > browser support is scarce. Since Grid Layout is out of the scope of
@@ -11348,7 +10643,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > Before we dive into the Flexbox properties, the following diagram will
 > help us understand the terminology and orientations:
 
-![](./images-ref/media/image30.png)
+![](./images/image030.png)
 
 > Let\'s dive into Flexbox properties.
 
@@ -11405,7 +10700,7 @@ There are two mutually exclusive link pseudo-classes, namely, :link and
 > cross axis). By assigning flex shrink factors to one or multiple flex
 > items, we can make them fit the size of the flex container.
 >
-> []{#_bookmark172 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark172 .anchor}*[CSS Properties -- Part 1]*
 >
 > **CSS**:
 >
@@ -11536,7 +10831,7 @@ b.  {
 > When flex items are laid out with column, they stack one on top of the
 > other, starting from top to bottom.
 >
-> []{#_bookmark174 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark174 .anchor}*[CSS Properties -- Part 1]*
 
 ##### column-reverse
 
@@ -11545,7 +10840,7 @@ b.  {
 > When flex items are laid out with column-reverse, they stack one on
 > top of the other, starting from bottom to top.
 >
-> ![](./images-ref/media/image31.png){width="0.31995188101487315in"
+> ![](./images/image031.png){width="0.31995188101487315in"
 > height="0.3996489501312336in"}The flex-direction property is applied
 > to the flex container, not the flex items.
 >
@@ -11595,7 +10890,7 @@ b.  {
 
 []{#_bookmark175 .anchor}*Chapter 4*
 
-> ![](./images-ref/media/image32.png){width="0.31995188101487315in"
+> ![](./images/image032.png){width="0.31995188101487315in"
 > height="0.39964129483814526in"}The flex-wrap property is applied to
 > the flex container, not the flex items.
 >
@@ -11633,7 +10928,7 @@ b.  {
 >
 > (default value),wrap, or wrap-reverse.
 >
-> ![](./images-ref/media/image33.png){width="0.3199496937882765in"
+> ![](./images/image033.png){width="0.3199496937882765in"
 > height="0.39964348206474193in"}The flex-flow property is applied to
 > the flex container, not the flex items.
 >
@@ -11647,7 +10942,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark176 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark176 .anchor}*[CSS Properties -- Part 1]*
 >
 > /\*Above rule is the same as this rule\*/
 >
@@ -11706,7 +11001,7 @@ b.  {
 
 []{#_bookmark177 .anchor}*Chapter 4*
 
-> ![](./images-ref/media/image34.png){width="0.3199507874015748in"
+> ![](./images/image034.png){width="0.3199507874015748in"
 > height="0.39964129483814526in"}The align-content property is applied
 > to the flex container, not the flex items.
 >
@@ -11764,7 +11059,7 @@ b.  {
 > This aligns the flex elements to the center of the container and and
 > at the same time, it aligns them to their center.
 >
-> []{#_bookmark178 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark178 .anchor}*[CSS Properties -- Part 1]*
 
 ##### baseline
 
@@ -11775,7 +11070,7 @@ b.  {
 
 > This stretches the flex elements to fill the entire parent container.
 >
-> ![](./images-ref/media/image35.png){width="0.3199496937882765in"
+> ![](./images/image035.png){width="0.3199496937882765in"
 > height="0.39964129483814526in"}The align-items property is applied to
 > the flex container, not the flex items.
 >
@@ -11879,7 +11174,7 @@ b.  {
 > ahead it is in the order. Items that have the same number are laid out
 > according to the source document.
 >
-> []{#_bookmark180 .anchor}*[CSS Properties -- Part 1]{.underline}*
+> []{#_bookmark180 .anchor}*[CSS Properties -- Part 1]*
 >
 > The starting number is 0 (zero), not 1. Negative values are allowed.
 >
@@ -11984,7 +11279,7 @@ b.  {
 > background features, be positioning or even blend modes to create nice
 > visual effects without having to depend on image editors of any kind.
 >
-> *[CSS Properties -- Part 1]{.underline}*
+> *[CSS Properties -- Part 1]*
 >
 > The Box Model concept is something we can tackle easier especially
 > knowing that legacy IE\'s have less and less impact than before. This
@@ -12035,7 +11330,7 @@ b.  {
 > is not only very unlikely to list more than four or five fonts, but
 > it\'s also unnecessary.
 >
-> []{#_bookmark183 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark183 .anchor}*[CSS Properties -- Part 2]*
 >
 > The font family names are separated by commas. We call this the *font
 > stack*. The browser will read the font stack and use the first one in
@@ -12059,7 +11354,7 @@ b.  {
 > family names in the font stack. Generic family names can be monospace,
 > san-serif, serif, cursive, and fantasy.
 >
-> ![](./images-ref/media/image36.png){width="0.3199475065616798in"
+> ![](./images/image036.png){width="0.3199475065616798in"
 > height="0.3996522309711286in"}It is not mandatory to use quotes
 > (single or double) when a font family name has multiple words. For
 > example, writing font-family: \"Times New Roman\", serif; is the same
@@ -12139,7 +11434,7 @@ b.  {
 > [http://tiny.cc/](http://tiny.cc/msn-font-features-list)
 > [msn-font-features-list](http://tiny.cc/msn-font-features-list)
 >
-> []{#_bookmark185 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark185 .anchor}*[CSS Properties -- Part 2]*
 >
 > **CSS**:
 >
@@ -12255,7 +11550,7 @@ b.  {
 >
 > font-size-adjust: .5\";
 >
-> []{#_bookmark187 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark187 .anchor}*[CSS Properties -- Part 2]*
 
 #### Description
 
@@ -12273,7 +11568,7 @@ b.  {
 >
 > [http://fontdeck.com/support/fontsizeadjust.](http://fontdeck.com/support/fontsizeadjust)
 >
-> ![](./images-ref/media/image37.png){width="0.3199486001749781in"
+> ![](./images/image037.png){width="0.3199486001749781in"
 > height="0.39964129483814526in"}Although Firefox is the only one that
 > supports the font-size- adjust property at the time of writing this
 > section, I decided to still include it because it will be of great
@@ -12370,7 +11665,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark189 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark189 .anchor}*[CSS Properties -- Part 2]*
 
 ### font-variant {#font-variant-1}
 
@@ -12463,7 +11758,7 @@ b.  {
 >
 > lighter.
 >
-> ![](./images-ref/media/image38.png){width="0.31994641294838144in"
+> ![](./images/image038.png){width="0.31994641294838144in"
 > height="0.3996522309711286in"}The normal keyword is the same as 400
 > numeric value and the bold
 >
@@ -12482,7 +11777,7 @@ b.  {
 >
 > .element { font-weight: bold; }
 >
-> []{#_bookmark191 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark191 .anchor}*[CSS Properties -- Part 2]*
 
 ### font {#font-1}
 
@@ -12521,7 +11816,7 @@ b.  {
 
     -   font-family
 
-> ![](./images-ref/media/image39.png){width="0.31995188101487315in"
+> ![](./images/image039.png){width="0.31995188101487315in"
 > height="0.39963692038495185in"}When declaring the line-height value in
 > the shorthand, it always has to go after the font-size property
 > separated with a slash \"/\" character, for example, .element { font:
@@ -12583,7 +11878,7 @@ b.  {
 >
 > Note that X-axis equals *horizontal* and Y-axis equals *vertical*.
 >
-> ![](./images-ref/media/image40.png){width="0.31994641294838144in"
+> ![](./images/image040.png){width="0.31994641294838144in"
 > height="0.3996522309711286in"}An easy way to remember which axis is
 > which is by saying this: \"*x is a cross so the x-axis is across*\".
 > <http://tiny.cc/xy-axis>
@@ -12596,7 +11891,7 @@ b.  {
 > element will be scaled. For example, 2 means that the element will be
 > scaled to twice its size. Negative values are valid.
 >
-> []{#_bookmark193 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark193 .anchor}*[CSS Properties -- Part 2]*
 
 ##### skew()
 
@@ -12716,7 +12011,7 @@ b.  {
 >
 > (horizontal) and the second the Y axis (vertical).
 >
-> []{#_bookmark195 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark195 .anchor}*[CSS Properties -- Part 2]*
 >
 > 3D transformations can take up to three values that represent the X,
 > Y, and Z axes.
@@ -12799,7 +12094,7 @@ b.  {
 > When the flat property is applied, the elements obey the order in
 > which they appear in the source HTML.
 >
-> ![](./images-ref/media/image41.png){width="0.31994641294838144in"
+> ![](./images/image041.png){width="0.31994641294838144in"
 > height="0.3996522309711286in"}Note that this property is applied to
 > the parent element, not the child elements.
 >
@@ -12841,7 +12136,7 @@ b.  {
 >
 > transition: width 400ms ease-out 1s;
 >
-> []{#_bookmark197 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark197 .anchor}*[CSS Properties -- Part 2]*
 
 ##### Description
 
@@ -12958,7 +12253,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark199 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark199 .anchor}*[CSS Properties -- Part 2]*
 
 #### transition-timing-function
 
@@ -13071,7 +12366,7 @@ b.  {
 >
 > Negative values are valid.
 >
-> []{#_bookmark201 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark201 .anchor}*[CSS Properties -- Part 2]*
 
 #### Description
 
@@ -13175,7 +12470,7 @@ b.  {
 -   Percentage value: For the percentage value, we use percentages like
     50%, 85%, and so on.
 
-> []{#_bookmark203 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark203 .anchor}*[CSS Properties -- Part 2]*
 >
 > **CSS**:
 >
@@ -13287,7 +12582,7 @@ b.  {
 >
 > Let\'s see how.
 >
-> []{#_bookmark205 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark205 .anchor}*[CSS Properties -- Part 2]*
 
 ### color {#color-1}
 
@@ -13417,7 +12712,7 @@ b.  {
 >
 > .element { text-decoration: overline dashed yellow; }
 >
-> []{#_bookmark207 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark207 .anchor}*[CSS Properties -- Part 2]*
 
 ### text-decoration-line {#text-decoration-line-1}
 
@@ -13539,7 +12834,7 @@ b.  {
 >
 > text-overflow: ellipsis;
 >
-> []{#_bookmark209 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark209 .anchor}*[CSS Properties -- Part 2]*
 
 #### Description
 
@@ -13593,7 +12888,7 @@ b.  {
 
 []{#_bookmark210 .anchor}*Chapter 5*
 
-> ![](./images-ref/media/image42.png){width="0.31995188101487315in"
+> ![](./images/image042.png){width="0.31995188101487315in"
 > height="0.39964129483814526in"}Use the text-rendering CSS property
 > with extreme caution and make sure you run all pertinent tests.
 >
@@ -13638,7 +12933,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark211 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark211 .anchor}*[CSS Properties -- Part 2]*
 
 ### text-shadow {#text-shadow-1}
 
@@ -13752,7 +13047,7 @@ b.  {
 > This is only for vertical writing modes. It places the underline to
 > the right of the text.
 >
-> []{#_bookmark213 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark213 .anchor}*[CSS Properties -- Part 2]*
 
 ##### under
 
@@ -13846,7 +13141,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark215 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark215 .anchor}*[CSS Properties -- Part 2]*
 
 ### border-collapse {#border-collapse-1}
 
@@ -13943,7 +13238,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark217 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark217 .anchor}*[CSS Properties -- Part 2]*
 
 ## Words and paragraphs
 
@@ -13971,7 +13266,7 @@ b.  {
 > the language and a proper hyphenation dictionary is available. Each
 > browser supports hyphenation differently.
 >
-> ![](./images-ref/media/image43.png){width="0.31995188101487315in"
+> ![](./images/image043.png){width="0.31995188101487315in"
 > height="0.3996380139982502in"}Ensure that the lang attribute is
 > declared either globally on the \<html\>
 >
@@ -14041,7 +13336,7 @@ b.  {
 > This is the default value. Line breaks will happen based on default
 > line breaking rules.
 >
-> []{#_bookmark219 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark219 .anchor}*[CSS Properties -- Part 2]*
 
 ##### break-all
 
@@ -14151,7 +13446,7 @@ b.  {
 -   Percentage value: For the percentage value, we use percentages like
     50%, 85%, and so on.
 
-> []{#_bookmark221 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark221 .anchor}*[CSS Properties -- Part 2]*
 >
 > **CSS**:
 >
@@ -14260,7 +13555,7 @@ b.  {
 >
 > p { quotes: \"«\" \"»\" \"‹\" \"›\"; }
 >
-> []{#_bookmark223 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark223 .anchor}*[CSS Properties -- Part 2]*
 
 ### widows {#widows-1}
 
@@ -14373,9 +13668,9 @@ b.  {
 > The letter-spacing property supports the keyword values: normal and
 > length. Negative values are valid.
 >
-> []{#_bookmark225 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark225 .anchor}*[CSS Properties -- Part 2]*
 >
-> ![](./images-ref/media/image44.png){width="0.31994422572178477in"
+> ![](./images/image044.png){width="0.31994422572178477in"
 > height="0.39964129483814526in"}Unless you understand the legibility
 > and design implications, the default letter spacing in most fonts is
 > ideal and should rarely be changed.
@@ -14483,7 +13778,7 @@ b.  {
 >
 > Let\'s check out these paging properties.
 >
-> []{#_bookmark227 .anchor}*[CSS Properties -- Part 2]{.underline}*
+> []{#_bookmark227 .anchor}*[CSS Properties -- Part 2]*
 
 ### page-break-after {#page-break-after-1}
 
@@ -14634,7 +13929,7 @@ b.  {
 > page box. This property only works if marks have been enabled using
 > the marks property, which we\'ll see next.
 >
-> []{#_bookmark230 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark230 .anchor}*[CSS Properties -- Part 3]*
 
 #### Description
 
@@ -14726,11 +14021,11 @@ b.  {
 > lower-latin, lower-roman, none, square, upper-alpha, upper-latin, and
 > upper-roman.
 >
-> []{#_bookmark232 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark232 .anchor}*[CSS Properties -- Part 3]*
 >
 > Here\'s a screenshot with all values except the none value:
 
-![](./images-ref/media/image45.png)
+![](./images/image045.png)
 
 > **CSS**:
 >
@@ -14826,7 +14121,7 @@ b.  {
 >
 > Let\'s check out the properties that make CSS counters so great.
 >
-> []{#_bookmark234 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark234 .anchor}*[CSS Properties -- Part 3]*
 
 ### counter-reset {#counter-reset-1}
 
@@ -14936,7 +14231,7 @@ b.  {
 -   It cannot start with a number or a special character like #, \$, !,
     and so on.
 
-> []{#_bookmark236 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark236 .anchor}*[CSS Properties -- Part 3]*
 
 ##### number
 
@@ -15037,7 +14332,7 @@ b.  {
 > under the content without affecting the layout of the child elements
 > of the container.
 >
-> []{#_bookmark238 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark238 .anchor}*[CSS Properties -- Part 3]*
 >
 > This value is optional. If this value is not declared, the shadow
 > defaults to displaying the shadow outside the element.
@@ -15128,7 +14423,7 @@ b.  {
 > flow. Thus, their parent container will not take them into account and
 > its height isn\'t determined by those floated elements anymore.
 >
-> []{#_bookmark240 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark240 .anchor}*[CSS Properties -- Part 3]*
 >
 > So, adding a clearing declaration (with the display and content
 > properties) to the parent\'s :after pseudo element \"*tells*\" the
@@ -15136,7 +14431,7 @@ b.  {
 > container\'s height is now determined by the tallest floating child
 > element. Let\'s take a look at the following image:
 
-![](./images-ref/media/image46.png)
+![](./images/image046.png)
 
 > Here is a demo in CodePen: <http://tiny.cc/clearing-floats>
 >
@@ -15215,7 +14510,7 @@ b.  {
 
 -   table-row-group
 
-> []{#_bookmark242 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark242 .anchor}*[CSS Properties -- Part 3]*
 
 -   block: Makes an element be displayed as a block-level element, like
     a \<div\>
@@ -15323,7 +14618,7 @@ b.  {
 >
 > .element { box-shadow: 0 0 5px rgba(0, 0, 0, **.2**); }
 >
-> []{#_bookmark244 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark244 .anchor}*[CSS Properties -- Part 3]*
 
 ### filter {#filter-1}
 
@@ -15341,7 +14636,7 @@ b.  {
 >
 > or changing its opacity.
 >
-> ![](./images-ref/media/image47.png){width="0.31994641294838144in"
+> ![](./images/image047.png){width="0.31994641294838144in"
 > height="0.3996522309711286in"}This filter property is not the same as
 > Microsoft\'s proprietary filter property that only IE supports. Unlike
 > Microsoft\'s proprietary filters, which are not part of a standard,
@@ -15448,7 +14743,7 @@ b.  {
 > A value of 0% leaves the element unchanged; a value of 100% makes the
 > element grayscale. Values over 100% are not allowed.
 >
-> []{#_bookmark246 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark246 .anchor}*[CSS Properties -- Part 3]*
 >
 > A value of 0 leaves the element unchanged, and a value of 1 makes the
 > element grayscale. Values over 1 are not allowed. Negative values are
@@ -15580,7 +14875,7 @@ b.  {
 >
 > .element { filter: sepia(100%) saturate(200%) hue-rotate(50deg); }
 >
-> []{#_bookmark248 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark248 .anchor}*[CSS Properties -- Part 3]*
 
 ### overflow {#overflow-1}
 
@@ -15689,7 +14984,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark250 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark250 .anchor}*[CSS Properties -- Part 3]*
 
 ### visibility {#visibility-1}
 
@@ -15804,7 +15099,7 @@ b.  {
 
 > Let\'s check these properties out.
 >
-> []{#_bookmark252 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark252 .anchor}*[CSS Properties -- Part 3]*
 
 ### mask {#mask-1}
 
@@ -15913,7 +15208,7 @@ b.  {
 >
 > .element { mask-clip: padding-box, border-box; }
 >
-> []{#_bookmark254 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark254 .anchor}*[CSS Properties -- Part 3]*
 
 ### mask-composite {#mask-composite-1}
 
@@ -15940,7 +15235,7 @@ b.  {
 > triangle is on top and the circle below; the different types of
 > *composite* make different shapes of masks:
 
-![](./images-ref/media/image48.png)
+![](./images/image048.png)
 
 []{#_bookmark255 .anchor}*Chapter 6*
 
@@ -16000,7 +15295,7 @@ b.  {
 > .element { mask-image: url(../images/mask.png), linear- gradient(black
 > 5%, transparent); }
 >
-> []{#_bookmark256 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark256 .anchor}*[CSS Properties -- Part 3]*
 
 ### mask-mode {#mask-mode-1}
 
@@ -16122,7 +15417,7 @@ b.  {
 > This property works similar to the background-position property. Refer
 > to *Chapter 4*, *CSS Properties -- Part 1*, for more information.
 >
-> []{#_bookmark258 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark258 .anchor}*[CSS Properties -- Part 3]*
 >
 > Multiple comma-separated keyword values can be present in the same
 > declaration. Each value represents its corresponding image in the
@@ -16243,7 +15538,7 @@ b.  {
 -   auto: This scales the image mask to the actual size of the image\'s
     intrinsic proportions without distorting it.
 
-> []{#_bookmark260 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark260 .anchor}*[CSS Properties -- Part 3]*
 >
 > **CSS**:
 >
@@ -16351,9 +15646,9 @@ b.  {
 > four values are declared, they correspond to top, right, bottom, and
 > left sides.
 >
-> []{#_bookmark262 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark262 .anchor}*[CSS Properties -- Part 3]*
 >
-> ![](./images-ref/media/image49.png){width="0.3199507874015748in"
+> ![](./images/image049.png){width="0.3199507874015748in"
 > height="0.39964129483814526in"}When declaring a unitless value with a
 > bitmap image mask, the value is interpreted as if it were pixels.
 
@@ -16457,7 +15752,7 @@ b.  {
 >
 > .element { mask-border-outset: 5 20px 2; }
 >
-> []{#_bookmark264 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark264 .anchor}*[CSS Properties -- Part 3]*
 
 ### mask-border-repeat {#mask-border-repeat-1}
 
@@ -16523,7 +15818,7 @@ b.  {
 >
 > This vector graphic can be a *basic shape* or an *SVG path*.
 >
-> ![](./images-ref/media/image50.png){width="0.3199507874015748in"
+> ![](./images/image050.png){width="0.3199507874015748in"
 > height="0.39964129483814526in"}Note: The clip CSS property is now
 > deprecated due to poor features and limitations with SVGs. The current
 > and widely supported clip-path property is part of the SVG
@@ -16569,7 +15864,7 @@ b.  {
     distance. With this, the circle never bleeds or overflows the
     content, it\'s always complete.
 
-> []{#_bookmark266 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark266 .anchor}*[CSS Properties -- Part 3]*
 
 -   farthest-side: This value will create a circle by taking the length
     from the center to the farthest side. This means that if the element
@@ -16693,7 +15988,7 @@ b.  {
 > Let\'s see how to change the orientation and rendering quality of
 > images with CSS.
 >
-> []{#_bookmark268 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark268 .anchor}*[CSS Properties -- Part 3]*
 
 ### image-orientation {#image-orientation-1}
 
@@ -16793,7 +16088,7 @@ b.  {
 >
 > cursor: pointer;
 >
-> []{#_bookmark270 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark270 .anchor}*[CSS Properties -- Part 3]*
 
 #### Description
 
@@ -16916,7 +16211,7 @@ b.  {
 
 -   wait
 
-> []{#_bookmark271 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark271 .anchor}*[CSS Properties -- Part 3]*
 >
 > Some of the most commonly used values are default, move, pointer, and
 > text:
@@ -17032,7 +16327,7 @@ b.  {
     thickness of the outline. It supports any length value, such as px,
     em, in, mm, cm, vw, and so on. Percentage values are not valid.
 
-> []{#_bookmark273 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark273 .anchor}*[CSS Properties -- Part 3]*
 
 -   style: This is mapped to the outline-style property. It\'s the type
     of line to be used. It takes the same values as border: dashed,
@@ -17144,7 +16439,7 @@ b.  {
 >
 > .parent-container .element { transform: rotateX(170deg); }
 >
-> []{#_bookmark275 .anchor}*[CSS Properties -- Part 3]{.underline}*
+> []{#_bookmark275 .anchor}*[CSS Properties -- Part 3]*
 
 ### backface-visibility {#backface-visibility-1}
 
@@ -17262,7 +16557,7 @@ b.  {
 > intense effect. There is no limit to the value. Also, negative values
 > are not valid for either the percentage of the number.
 >
-> []{#_bookmark277 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark277 .anchor}*[CSS Functions]*
 >
 > **CSS**:
 >
@@ -17368,7 +16663,7 @@ b.  {
 > 360deg, the rotation will just go around. For example, if we declare
 > 380deg, that would the same as 20deg.
 >
-> []{#_bookmark279 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark279 .anchor}*[CSS Functions]*
 
 ### blur()
 
@@ -17470,7 +16765,7 @@ b.  {
 -   *The CSS3 matrix() Transform for the Mathematically Challenged* by
     Zoltan Hawryluk (<http://tiny.cc/css-matrix-2>)
 
-> []{#_bookmark281 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark281 .anchor}*[CSS Functions]*
 >
 > **CSS**:
 >
@@ -17582,7 +16877,7 @@ b.  {
 >
 > transform: rotate3d(1, 0, 0, 25deg);
 >
-> []{#_bookmark283 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark283 .anchor}*[CSS Functions]*
 
 #### Description
 
@@ -17688,14 +16983,14 @@ b.  {
 > value is declared, it means that both orientations will use the same
 > value.
 >
-> []{#_bookmark285 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark285 .anchor}*[CSS Functions]*
 >
 > Negative values are allowed. However, when negative values are used,
 > the element
 >
 > is flipped.
 >
-> ![](./images-ref/media/image51.png){width="0.31994641294838144in"
+> ![](./images/image051.png){width="0.31994641294838144in"
 > height="0.3996522309711286in"}When an element is scaled, it *does not*
 > affect the layout; it will simply overlap or appear below other
 > elements depending on the source order.
@@ -17805,7 +17100,7 @@ b.  {
 > The scaleZ() function changes the size of an element on the *Y* axes
 > in a two- dimensional plane. It supports a unitless *number* value.
 >
-> []{#_bookmark287 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark287 .anchor}*[CSS Functions]*
 >
 > Negative values are allowed. However, the element is flipped when
 > negative values
@@ -17914,7 +17209,7 @@ b.  {
 > transition-timing-function: steps(3); animation-timing-function:
 > steps(3);
 >
-> []{#_bookmark289 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark289 .anchor}*[CSS Functions]*
 
 #### Description
 
@@ -18025,7 +17320,7 @@ b.  {
 > It supports both *length* and *percentage* values. Negative values are
 > allowed.
 >
-> []{#_bookmark291 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark291 .anchor}*[CSS Functions]*
 >
 > **CSS**:
 >
@@ -18135,7 +17430,7 @@ b.  {
 > You can see the HSL color wheel in CodePen:
 > <http://tiny.cc/hsl-color-wheel>
 >
-> []{#_bookmark293 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark293 .anchor}*[CSS Functions]*
 >
 > **CSS**:
 >
@@ -18252,7 +17547,7 @@ b.  {
 >
 > 360\. Larger values wrap around the circumference.
 >
-> []{#_bookmark295 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark295 .anchor}*[CSS Functions]*
 
 ##### Color stops
 
@@ -18263,7 +17558,7 @@ b.  {
 > Stop positions can be declared in any *length* value or a *percentage*
 > value and go after the color value.
 >
-> ![](./images-ref/media/image52.png){width="0.31995188101487315in"
+> ![](./images/image052.png){width="0.31995188101487315in"
 > height="0.3996522309711286in"}Percentage values are more commonly used
 > due to the fact that they can scale with the element. Pixel values are
 > fine too, but they just don\'t have the same versatility as relative
@@ -18372,7 +17667,7 @@ b.  {
 -   farthest-corner: The size of the gradient depends on the corner that
     is farthest from the center.
 
-> []{#_bookmark297 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark297 .anchor}*[CSS Functions]*
 
 -   closest-side: The size of the gradient depends on the side that is
     closest to the center.
@@ -18489,7 +17784,7 @@ b.  {
 > .element { background-image: repeating-radial-gradient(circle, navy
 > 50px, gray 75px); }
 >
-> []{#_bookmark299 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark299 .anchor}*[CSS Functions]*
 >
 > /\*Position declared (only one value). Gradient will start at the left
 > and center\*/
@@ -18559,7 +17854,7 @@ b.  {
 > something goes wrong during the parsing of the main attribute of the
 > element.
 >
-> ![](./images-ref/media/image53.png){width="0.31995188101487315in"
+> ![](./images/image053.png){width="0.31995188101487315in"
 > height="0.3996336395450569in"}The new CSS3 syntax that includes the
 > *type-or-unit* and the *attribute fallback* arguments is not stable
 > and it may potentially be dropped from the spec. Do your research
@@ -18608,7 +17903,7 @@ b.  {
 >
 > \<td data-label=\"Price:\"\>\$50\</td\>
 >
-> []{#_bookmark301 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark301 .anchor}*[CSS Functions]*
 >
 > \<td data-label=\"Duration:\"\>3 months\</td\>
 >
@@ -18720,7 +18015,7 @@ b.  {
 > quotes inside a URL that uses double quotes *must* be escaped with a
 > backslash (\\). Otherwise, it will break the URL.
 >
-> []{#_bookmark303 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark303 .anchor}*[CSS Functions]*
 >
 > The URL pointing to the resource can be either absolute or relative.
 > If it\'s relative, it\'s relative to the location of the style sheet
@@ -18834,7 +18129,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark305 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark305 .anchor}*[CSS Functions]*
 
 ## Miscellaneous {#miscellaneous-2}
 
@@ -18943,7 +18238,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark307 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark307 .anchor}*[CSS Functions]*
 
 ### perspective() {#perspective-1}
 
@@ -19002,7 +18297,7 @@ b.  {
 
 []{#_bookmark308 .anchor}*Chapter 7*
 
-> ![](./images-ref/media/image54.png){width="0.3199496937882765in"
+> ![](./images/image054.png){width="0.3199496937882765in"
 > height="0.3996576990376203in"}The clip CSS property is now deprecated
 > due to poor features and limitations with SVGs. The current and widely
 > supported clip-path property is part of the SVG specification and it
@@ -19050,7 +18345,7 @@ b.  {
 > character encoding in the HTML, it implies that it\'s the same
 > character encoding for the CSS file(s).
 >
-> []{#_bookmark309 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark309 .anchor}*[CSS Functions]*
 >
 > If you like to declare the character encoding in your CSS files,
 > that\'s fine too. If you plan to use this in a style sheet, it should
@@ -19173,7 +18468,7 @@ b.  {
 >
 > and SVG.
 >
-> []{#_bookmark311 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark311 .anchor}*[CSS Functions]*
 
 ##### WOFF/WOFF2
 
@@ -19291,7 +18586,7 @@ b.  {
 > \<link href=\'https://fonts.googleapis.com/css?family=Roboto\'
 > rel=\'stylesheet\' type=\'text/css\'\>
 >
-> []{#_bookmark313 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark313 .anchor}*[CSS Functions]*
 >
 > **CSS**:
 >
@@ -19368,7 +18663,7 @@ b.  {
 > queries. If more than one media query is declared, it needs to be
 > separated by commas.
 >
-> ![](./images-ref/media/image55.png){width="0.3199496937882765in"
+> ![](./images/image055.png){width="0.3199496937882765in"
 > height="0.39964238845144356in"}It\'s a known fact that using \@import
 > has a negative impact on performance due to sequential downloading
 > instead of parallel downloads and multiple HTTP requests. Read more
@@ -19413,7 +18708,7 @@ b.  {
 >
 > to {
 >
-> []{#_bookmark315 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark315 .anchor}*[CSS Functions]*
 >
 > /\*Animation properties END here\*/
 >
@@ -19533,7 +18828,7 @@ b.  {
 > specific features of a **User Agent** (**UA**) or display are called
 > **media features**.
 >
-> []{#_bookmark317 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark317 .anchor}*[CSS Functions]*
 
 ##### Media types
 
@@ -19651,7 +18946,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark319 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark319 .anchor}*[CSS Functions]*
 
 #### Description
 
@@ -19782,7 +19077,7 @@ b.  {
 >
 > }
 >
-> []{#_bookmark321 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark321 .anchor}*[CSS Functions]*
 
 ## Global CSS keyword values
 
@@ -19812,7 +19107,7 @@ b.  {
 >
 > }
 >
-> ![](./images-ref/media/image56.png){width="0.31995188101487315in"
+> ![](./images/image056.png){width="0.31995188101487315in"
 > height="0.3996402012248469in"}I\'ve seen most people use margin: 0
 > auto; to center an element. This is fine, but the value zero (0) can
 > be omitted. margin: auto; is enough and yields the same result.
@@ -19882,7 +19177,7 @@ b.  {
 > By combining the inherit and initial keywords, the unset CSS keyword
 > value resets the value of a property.
 >
-> []{#_bookmark323 .anchor}*[CSS Functions]{.underline}*
+> []{#_bookmark323 .anchor}*[CSS Functions]*
 >
 > If an element is inheriting values from its parent container and the
 > unset keyword is declared, then the property\'s value is reset to the
@@ -20007,7 +19302,7 @@ b.  {
 > language at all.
 >
 > []{#_bookmark326 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
 > The following are some of the key differences between Java
 > (programming language) and JS (scripting language):
@@ -20098,7 +19393,7 @@ b.  {
 -   Browser Object Model (BOM)
 
 > []{#_bookmark328 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 ### Core JavaScript (ECMAScript)
 
@@ -20174,7 +19469,7 @@ b.  {
 > to and has no impact on the HTML document itself. BOM also deals with
 > the browser objects, such as history, screen, navigator, and location.
 >
-> ![](./images-ref/media/image57.png){width="0.41783792650918633in"
+> ![](./images/image057.png){width="0.41783792650918633in"
 > height="0.3365824584426947in"} BOM is implemented differently in
 > different clients.
 
@@ -20199,9 +19494,9 @@ b.  {
 > the same page.
 >
 > []{#_bookmark330 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
-> ![](./images-ref/media/image58.png){width="0.31995188101487315in"
+> ![](./images/image058.png){width="0.31995188101487315in"
 > height="0.39964129483814526in"}The JavaScript files must be of a .js
 > extension.
 >
@@ -20310,7 +19605,7 @@ b.  {
 >
 > \</html\>
 >
-> ![](./images-ref/media/image59.png){width="0.31994641294838144in"
+> ![](./images/image059.png){width="0.31994641294838144in"
 > height="0.39964129483814526in"}In cases where external JavaScript
 > libraries, such as jQuery and MooTools
 >
@@ -20318,7 +19613,7 @@ b.  {
 > care of.
 >
 > []{#_bookmark332 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 #### Writing our first program in JavaScript
 
@@ -20446,7 +19741,7 @@ code:
 > and sends information in the form of HTML to each user\'s browsers.
 >
 > []{#_bookmark334 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
 > **Rhino** and **Node** are both commonly used to create servers.
 > Server-side scripting is not downloaded to client\'s browser.
@@ -20488,7 +19783,7 @@ code:
 > processing, which means automated processing without human
 > intervention. Batch is the opposite of interactive.
 >
-> ![](./images-ref/media/image60.png){width="0.417836832895888in"
+> ![](./images/image060.png){width="0.417836832895888in"
 > height="0.3365813648293963in"}Being open source, Rhino is a free
 > program provided by Mozilla and can be downloaded from
 > <http://www.mozilla.org/rhino>. Rhino is distributed as a JAR file. To
@@ -20567,7 +19862,7 @@ code:
 > well.
 >
 > []{#_bookmark336 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 ##### Description
 
@@ -20676,7 +19971,7 @@ code:
 > there is a default character set encoding is UTF-8.
 >
 > []{#_bookmark338 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
 > There are some common values of character set encoding such as the
 > following:
@@ -20694,7 +19989,7 @@ code:
 >
 > \<meta charset=\"utf-8\"\>?
 >
-> ![](./images-ref/media/image61.png){width="0.417836832895888in"
+> ![](./images/image061.png){width="0.417836832895888in"
 > height="0.3365824584426947in"}For this, you can also change your web
 > server\'s configuration to serve as UTF-8. Alternatively, we can send
 > a content-type header to our server-side script.
@@ -20710,7 +20005,7 @@ code:
 >
 > Another way is to add the UTF-8 character set into the server
 >
-> ![](./images-ref/media/image62.png){width="0.417836832895888in"
+> ![](./images/image062.png){width="0.417836832895888in"
 > height="0.3365748031496063in"}configuration file (.htaccess), as
 > follows:
 >
@@ -20747,7 +20042,7 @@ code:
 
 -   toArray();
 
-> ![](./images-ref/media/image63.png){width="0.41784120734908137in"
+> ![](./images/image063.png){width="0.41784120734908137in"
 > height="0.33658683289588803in"}Keywords in JavaScript are all in
 > lowercase such as while, for, if, and so on.
 >
@@ -20789,7 +20084,7 @@ code:
 -   \\n is usually created on OS X
 
 > []{#_bookmark340 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
 > If you want to remove line breaks from any text, then we must deal
 > with all types of line breaks because the text could be from these
@@ -20842,7 +20137,7 @@ code:
 
 []{#_bookmark341 .anchor}*Chapter 8*
 
-> ![](./images-ref/media/image64.png){width="0.41784120734908137in"
+> ![](./images/image064.png){width="0.41784120734908137in"
 > height="0.3365780839895013in"}A code point (also known as **character
 > code**) is a numerical representation
 >
@@ -20888,13 +20183,13 @@ code:
 >
 > var x = \"http\\\\u00253A\\\\u00252F\\\\u00252Fexample.com\";
 >
-> ![](./images-ref/media/image65.png){width="0.4178423009623797in"
+> ![](./images/image065.png){width="0.4178423009623797in"
 > height="0.336576990376203in"}The hexadecimal part of this kind of a
 > character escape is case-insensitive, which means \\u041a and \\u041A
 > are equivalent.
 >
 > []{#_bookmark342 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
 > You can also represent an escape sequence to represent a Unicode
 > character \[\"\\ u03b1\"\] as \[\"a\"\].The Unicode escape for the
@@ -20941,7 +20236,7 @@ code:
 >
 > encodings.
 >
-> ![](./images-ref/media/image66.png){width="0.4178423009623797in"
+> ![](./images/image066.png){width="0.4178423009623797in"
 > height="0.33658683289588803in"}ECMAScript 6 introduces
 > String.prototype.normalize(), which takes care of Unicode
 > normalization.
@@ -20971,7 +20266,7 @@ code:
 
 -   We must not use reserved words for identifiers
 
-> ![](./images-ref/media/image67.png){width="0.39665244969378827in"
+> ![](./images/image067.png){width="0.39665244969378827in"
 > height="0.4954494750656168in"}We can also use Unicode characters as
 > identifiers. Unicode escape sequences such as \\uaaaa, can also be
 > used as identifiers. We must avoid using global methods or properties
@@ -21006,7 +20301,7 @@ code:
 > JavaScript, for example, break, case, do, delete, else, and so on.
 >
 > []{#_bookmark344 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
 > There are three types of reserved words:
 
@@ -21112,7 +20407,7 @@ code:
 > /\* this is a comment \*/
 >
 > []{#_bookmark346 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 #### One-line comments
 
@@ -21218,7 +20513,7 @@ code:
 > -17.22E3 //Equivalent to \[17.22 x 10\^-3\]
 >
 > []{#_bookmark348 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 #### String literals
 
@@ -21326,7 +20621,7 @@ code:
 > \</script\>
 >
 > []{#_bookmark350 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
 > Output:
 >
@@ -21429,7 +20724,7 @@ code:
 > make your statements complex, meaning that the end of one of your
 > statements could be the start of your statement.
 >
-> ![](./images-ref/media/image68.png){width="0.41784120734908137in"
+> ![](./images/image068.png){width="0.41784120734908137in"
 > height="0.3365748031496063in"}Placing semicolons in your code can help
 > you prevent a lot of errors. Absence of semicolons, from your code
 > block will treat it as a single line of code when compiled resulting
@@ -21443,9 +20738,9 @@ code:
 > a=10; b=20;
 >
 > []{#_bookmark352 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
-> ![](./images-ref/media/image69.png){width="0.41784120734908137in"
+> ![](./images/image069.png){width="0.41784120734908137in"
 > height="0.33658683289588803in"}A semicolon in JavaScript is not a
 > terminator; these are just separators used to separate statements.
 >
@@ -21522,7 +20817,7 @@ code:
 
 -   Number
 
-> ![](./images-ref/media/image70.png){width="0.4178423009623797in"
+> ![](./images/image070.png){width="0.4178423009623797in"
 > height="0.3365748031496063in"}JavaScript considers integer values and
 > floating point values to be the same. It doesn\'t distinguish between
 > the two. All numbers in JavaScript are represented as floating point
@@ -21549,7 +20844,7 @@ code:
 > Typeof(operand)
 >
 > []{#_bookmark354 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 #### Description
 
@@ -21569,7 +20864,7 @@ code:
 
 -   typeof(5\*\"1\"): This will return a number
 
-> ![](./images-ref/media/image71.png){width="0.417836832895888in"
+> ![](./images/image071.png){width="0.417836832895888in"
 > height="0.336576990376203in"}The typeof operator is not a function.
 > Operands are written in round brackets, so it looks like a function,
 > but these are not functions. When you use the typeofnull operator, it
@@ -21606,7 +20901,7 @@ code:
 
 []{#_bookmark355 .anchor}*Chapter 8*
 
-> ![](./images-ref/media/image72.png){width="0.417836832895888in"
+> ![](./images/image072.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}The Undefined type shows that a
 > variable has not been assigned a value. All browsers, such as Firefox,
 > Google Chrome, Opera, and Safari, support the undefined property
@@ -21658,7 +20953,7 @@ code:
 > varabc=null; // Here abc exist but it does not has a value or a type
 >
 > []{#_bookmark356 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 #### Description
 
@@ -21667,7 +20962,7 @@ code:
 > you declare it as a null. Null can be expected in places where we are
 > expecting some values, but we find nothing.
 >
-> ![](./images-ref/media/image73.png){width="0.417836832895888in"
+> ![](./images/image073.png){width="0.417836832895888in"
 > height="0.3365780839895013in"}There is a big difference between the
 > null and undefined type. The data type of null is an object and the
 > data type of undefined is undefined. In the identity operator, null
@@ -21732,7 +21027,7 @@ code:
 >
 > reserved word, and its value is not a number in reality.
 >
-> ![](./images-ref/media/image74.png){width="0.4178423009623797in"
+> ![](./images/image074.png){width="0.4178423009623797in"
 > height="0.3365758967629046in"}There is no difference between an
 > integer and a floating point value
 >
@@ -21746,7 +21041,7 @@ code:
 >
 > Number.maxValue Number.minValue
 >
-> ![](./images-ref/media/image75.png){width="0.4178423009623797in"
+> ![](./images/image075.png){width="0.4178423009623797in"
 > height="0.3365813648293963in"} In Firefox or Chrome, it is
 > Number.MAX_VALUE.
 >
@@ -21774,9 +21069,9 @@ code:
 > the power of 10).
 >
 > []{#_bookmark358 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
-> ![](./images-ref/media/image76.png){width="0.41784120734908137in"
+> ![](./images/image076.png){width="0.41784120734908137in"
 > height="0.33657152230971127in"}In other programming languages, we can
 > define numbers as float, integer, long, and short. But, in JavaScript,
 > there is only one data type for numbers, that is, numbers. These
@@ -21850,7 +21145,7 @@ code:
 >
 > quotes and the other way is to write a string in single quotes.
 >
-> ![](./images-ref/media/image77.png){width="0.417836832895888in"
+> ![](./images/image077.png){width="0.417836832895888in"
 > height="0.3365748031496063in"}There is no special type of
 > representation of a single character in JavaScript. If you want to
 > represent a single character in JavaScript, then you must define a
@@ -21874,7 +21169,7 @@ code:
 > //empty string
 >
 > []{#_bookmark360 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 >
 > If there is a problem in a string and it cannot show some characters.
 > For a representation of these characters, there is a technique in
@@ -21987,7 +21282,7 @@ code:
 > var abc=\"xyz\";
 >
 > *[JavaScript Implementations, Syntax Basics, and Variable
-> Types]{.underline}*
+> Types]*
 >
 > We can define a variable in JavaScript using the var keyword. We can
 > define the value of a variable immediately or later. A variable that
@@ -21996,7 +21291,7 @@ code:
 > Creating too many global variables in JavaScript is a very bad
 > approach.
 >
-> ![](./images-ref/media/image78.png){width="0.39235017497812774in"
+> ![](./images/image078.png){width="0.39235017497812774in"
 > height="0.4900721784776903in"}The major reason why global variables
 > are discouraged in JavaScript is because in JavaScript, all the code
 > shares a single global namespace, also JavaScript has implied global
@@ -22013,7 +21308,7 @@ code:
 >
 > }
 >
-> ![](./images-ref/media/image79.png){width="0.417836832895888in"
+> ![](./images/image079.png){width="0.417836832895888in"
 > height="0.3365758967629046in"}The scope of a global variable never
 > stops during the execution of the whole page even it is not needed.
 >
@@ -22077,7 +21372,7 @@ code:
 > 2, and then we create the variable c and define its value later.
 >
 > []{#_bookmark363 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 ### The variable scope
 
@@ -22178,7 +21473,7 @@ code:
 > and other functions that have references to the object.
 >
 > []{#_bookmark365 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 ### The execution context and scope
 
@@ -22293,7 +21588,7 @@ code:
 > You can structure your code by following these steps:
 >
 > []{#_bookmark367 .anchor}*[JavaScript Implementations, Syntax Basics,
-> and Variable Types]{.underline}*
+> and Variable Types]*
 
 #### Objects
 
@@ -22350,7 +21645,7 @@ code:
 > 2+3;
 >
 > []{#_bookmark369 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 >
 > In this example, no value is assigned to a variable; however, it
 > evaluates the result of
@@ -22377,7 +21672,7 @@ code:
 > the first condition is true, then it will evaluate first, otherwise it
 > will evaluate second, for example:
 >
-> ![](./images-ref/media/image80.png){width="0.417836832895888in"
+> ![](./images/image080.png){width="0.417836832895888in"
 > height="0.3365748031496063in"}int age = 20; var flag;
 >
 > if (age\<18) {
@@ -22437,7 +21732,7 @@ code:
 > basically used to create a new object. These object initializers are
 > called **object literals**.
 >
-> ![](./images-ref/media/image81.png){width="0.31995188101487315in"
+> ![](./images/image081.png){width="0.31995188101487315in"
 > height="0.39965879265091864in"}In JavaScript, the property name and
 > object name are case sensitive, so when you create an object, this
 > should be kept in mind.
@@ -22451,7 +21746,7 @@ code:
 > Object-Oriented Programming*.
 >
 > []{#_bookmark371 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ### The function definition expression
 
@@ -22546,7 +21841,7 @@ code:
 > document.write (\"hello world\");
 >
 > []{#_bookmark373 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ### The invocation expression
 
@@ -22654,7 +21949,7 @@ code:
 > // eval via call()
 >
 > []{#_bookmark375 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 >
 > console.log(eval.call(null, \'abc\')); // global scope
 > console.log(window.eval(\'abc\')); // global scope console.log((1,
@@ -22719,7 +22014,7 @@ code:
 >
 > ++A;
 >
-> ![](./images-ref/media/image82.png){width="0.417836832895888in"
+> ![](./images/image082.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}A++ is a post increment operator. It
 > will first evaluate A and then increment it; whereas,++A is a
 > pre-increment operator. It increments the value of A and then
@@ -22758,7 +22053,7 @@ code:
 > result as a numeric value.
 >
 > []{#_bookmark377 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 >
 > In JavaScript, operators are the same as those in other programming
 > languages; for example, if you want to perform division between
@@ -22768,7 +22063,7 @@ code:
 >
 > console.log(a); // prints 2
 >
-> ![](./images-ref/media/image83.png){width="0.41784120734908137in"
+> ![](./images/image083.png){width="0.41784120734908137in"
 > height="0.3365824584426947in"}In JavaScript, arithmetic operators are
 > the most useful and powerful operators.
 
@@ -22803,7 +22098,7 @@ code:
 
 []{#_bookmark378 .anchor}*Chapter 9*
 
-> ![](./images-ref/media/image84.png){width="0.4178423009623797in"
+> ![](./images/image084.png){width="0.4178423009623797in"
 > height="0.33658683289588803in"}This operator can also be used to
 > append or concat two strings; for example:
 >
@@ -22851,7 +22146,7 @@ code:
 > The result of the multiplication between the numbers.
 >
 > []{#_bookmark379 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Parameter
 
@@ -22948,7 +22243,7 @@ code:
 > There are no parameters.
 >
 > []{#_bookmark381 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Description
 
@@ -23011,7 +22306,7 @@ code:
 
 -   Logical NOT(!)
 
-> ![](./images-ref/media/image85.png){width="0.417836832895888in"
+> ![](./images/image085.png){width="0.417836832895888in"
 > height="0.33658683289588803in"} Arithmetic operators get priority over
 > logical operators.
 >
@@ -23055,7 +22350,7 @@ code:
 > oranges*.
 >
 > []{#_bookmark383 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Returns
 
@@ -23110,7 +22405,7 @@ code:
 
 []{#_bookmark384 .anchor}*Chapter 9*
 
-> ![](./images-ref/media/image86.png){width="0.417836832895888in"
+> ![](./images/image086.png){width="0.417836832895888in"
 > height="0.3365780839895013in"}In JavaScript, these logical operators
 > are used in conditional statements and in the while loop.
 
@@ -23162,7 +22457,7 @@ code:
 > addition.
 >
 > []{#_bookmark385 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Parameters
 
@@ -23267,7 +22562,7 @@ code:
 > The %= operator is also called remainder assignment operator.
 >
 > []{#_bookmark387 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Parameters
 
@@ -23288,7 +22583,7 @@ code:
 >
 > This is short hand of writing abc = abc % 3.
 >
-> ![](./images-ref/media/image87.png){width="0.417836832895888in"
+> ![](./images/image087.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}This is an experimental technology,
 > part of the ECMAScript 2016 (ES7) proposal.
 
@@ -23375,7 +22670,7 @@ code:
 > greater than the value on the right-hand side of the operator.
 >
 > []{#_bookmark389 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Returns
 
@@ -23482,7 +22777,7 @@ code:
 > }
 >
 > []{#_bookmark391 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 #### The === Operator
 
@@ -23593,7 +22888,7 @@ code:
 > statement is also known as a **block statement**.
 >
 > []{#_bookmark393 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 >
 > This type of statement is usually used with conditional statements
 > such as if, else, for, while loop, and so on. Consider the following
@@ -23705,7 +23000,7 @@ code:
 > false, then it will not execute.
 >
 > []{#_bookmark395 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Syntax
 
@@ -23830,7 +23125,7 @@ code:
 > are false, then the else part will be executed.
 >
 > []{#_bookmark397 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 #### Switch statement
 
@@ -23940,7 +23235,7 @@ code:
     condition returns false, then we exit the for loop.
 
 > []{#_bookmark399 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 -   **Increment/Decrement**: This is used for iteration and for
     increasing or decreasing the counter variable value. This is an
@@ -24044,7 +23339,7 @@ code:
 > specified statement at least once before checking the condition.
 >
 > []{#_bookmark401 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Example
 
@@ -24065,7 +23360,7 @@ code:
 > The value of i is 1 The value of i is 2 The value of i is 3 The value
 > of i is 4 The value of i is 5
 >
-> ![](./images-ref/media/image88.png){width="0.31995188101487315in"
+> ![](./images/image088.png){width="0.31995188101487315in"
 > height="0.39963692038495185in"}The do while loop can be used where we
 > need to execute the loop at least once, irrespective of whether or not
 > the condition is met.
@@ -24155,7 +23450,7 @@ code:
 > The value of i is 1 Breaking from if loop The value of i is 3
 >
 > []{#_bookmark403 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 #### Continue statement
 
@@ -24263,7 +23558,7 @@ code:
 > }
 >
 > []{#_bookmark405 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Example
 
@@ -24321,7 +23616,7 @@ code:
 
 > **Sparse array**
 >
-> ![](./images-ref/media/image89.png){width="0.4178423009623797in"
+> ![](./images/image089.png){width="0.4178423009623797in"
 > height="0.336576990376203in"}In programming languages, a sparse array
 > denotes an array that has the same values such as 0 or null. There is
 > a large number of zeroes in an array storage, which occurs in a sparse
@@ -24352,7 +23647,7 @@ code:
 
 > **Strings as an array**
 >
-> ![](./images-ref/media/image90.png){width="0.41784120734908137in"
+> ![](./images/image090.png){width="0.41784120734908137in"
 > height="0.3365824584426947in"}There are some strings in JavaScript
 > that behave like an array. If we make a string like an array, then it
 > will only be treated as an array. There are some methods in arrays
@@ -24369,7 +23664,7 @@ code:
 > You can use either of these two methods.
 >
 > []{#_bookmark407 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 >
 > We have a comma-separated string in brackets in an array initializer;
 > for example:
@@ -24382,7 +23677,7 @@ code:
 >
 > var students=new Array (\"Ali,\"Ahmed\",\"Amina\");
 >
-> ![](./images-ref/media/image91.png){width="0.3199475065616798in"
+> ![](./images/image091.png){width="0.3199475065616798in"
 > height="0.39965332458442693in"}The array initializer method is a quick
 > and good way of initializing an array because its execution speed is
 > higher than that of the constructor method. If you do not pass any
@@ -24405,7 +23700,7 @@ code:
 >
 > var a4=\[\'hi\', \[2\]\];
 >
-> ![](./images-ref/media/image92.png){width="0.3199486001749781in"
+> ![](./images/image092.png){width="0.3199486001749781in"
 > height="0.39964129483814526in"}When you initialize an array using an
 > array initializer, the type does not have to be the same for all
 > items. Also, arrays can have zero length.
@@ -24480,7 +23775,7 @@ code:
 > }
 >
 > []{#_bookmark409 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ### Properties in an array
 
@@ -24587,7 +23882,7 @@ code:
 > \[12, 54, 18, 130, 44\].every(isBigEnough); // true
 >
 > []{#_bookmark411 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 #### foreach()
 
@@ -24699,7 +23994,7 @@ code:
 > The indexOf() method returns the first index of an array.
 >
 > []{#_bookmark413 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Returns
 
@@ -24803,7 +24098,7 @@ code:
 > The element(s) to add in the array.
 >
 > []{#_bookmark415 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Description
 
@@ -24897,7 +24192,7 @@ code:
 > The toString() method takes a null parameter.
 >
 > []{#_bookmark417 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Description
 
@@ -25006,7 +24301,7 @@ code:
 > });
 >
 > []{#_bookmark419 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 >
 > The callbacks are executed as follows:
 
@@ -25129,7 +24424,7 @@ code:
 > A Boolean true or false.
 >
 > []{#_bookmark421 .anchor}*[JavaScript Expressions, Operators,
-> Statements, and Arrays]{.underline}*
+> Statements, and Arrays]*
 
 ##### Parameter
 
@@ -25241,7 +24536,7 @@ Programming
 > code is encapsulated.
 >
 > []{#_bookmark423 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ### Inheritance
 
@@ -25337,7 +24632,7 @@ Programming
 > car.colour = \"White\";
 >
 > []{#_bookmark425 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > The preceding example also creates a new car object with four
 > properties:
@@ -25435,7 +24730,7 @@ Programming
 > that define properties and methods for our custom object.
 >
 > []{#_bookmark427 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ##### Description
 
@@ -25542,7 +24837,7 @@ Programming
 -   This supports localized functions and variables with closures
 
 > []{#_bookmark428 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ######## Disadvantages:
 
@@ -25650,7 +24945,7 @@ Programming
 > defines a one-to-many dependency relationship between objects.
 >
 > []{#_bookmark430 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ##### Description
 
@@ -25753,7 +25048,7 @@ Programming
 > existing object through cloning.
 >
 > []{#_bookmark432 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ##### Description
 
@@ -25853,7 +25148,7 @@ Programming
 > layer.
 >
 > []{#_bookmark434 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > Here are a few advantages and disadvantages of the facade pattern:
 
@@ -25960,7 +25255,7 @@ Programming
 > on the rest of the distinct functionality in our system.
 >
 > []{#_bookmark436 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ######## Disadvantages:
 
@@ -26086,7 +25381,7 @@ Programming
 > Obj.setButtonColor(value);
 >
 > []{#_bookmark438 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ### Deleting properties
 
@@ -26186,7 +25481,7 @@ Programming
 > these objects are enumerable.
 >
 > []{#_bookmark440 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > Here is an example:
 >
@@ -26234,7 +25529,7 @@ Programming
 -   **Value**: This is a value of property and it can be of any data
     type in JavaScript
 
-> ![](./images-ref/media/image93.png){width="0.417836832895888in"
+> ![](./images/image093.png){width="0.417836832895888in"
 > height="0.3365780839895013in"}The data property has all of the
 > preceding attributes, while the accessor property does not have a
 > value or writable attribute.
@@ -26292,7 +25587,7 @@ Programming
     properties to an object
 
 > []{#_bookmark442 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ### Serializing objects
 
@@ -26392,7 +25687,7 @@ Programming
 > Syntax Basics, and Variable Types*.
 >
 > []{#_bookmark444 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ### Function arguments and parameters
 
@@ -26501,7 +25796,7 @@ Programming
 > }
 >
 > []{#_bookmark446 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ### Function properties
 
@@ -26582,7 +25877,7 @@ Programming
 >
 > module.export=student;
 >
-> ![](./images-ref/media/image94.png){width="0.417836832895888in"
+> ![](./images/image0094.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}Modules are used to include and extend
 > classes and properties easily. Modules attach properties to global
 > objects to export module values.
@@ -26616,7 +25911,7 @@ Programming
 > special methods are invoked on a class.
 >
 > []{#_bookmark448 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > Prototypes and functions are two different things in JavaScript. A
 > constructor can be any function, but a prototype is a special kind of
@@ -26724,7 +26019,7 @@ Programming
 -   A singleton using a function
 
 > []{#_bookmark450 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 #### Using a function
 
@@ -26805,7 +26100,7 @@ Programming
 > the \_proto\_ attribute for that object to create another Student
 > object:
 
-![](./images-ref/media/image95.png){width="0.9097484689413823in"
+![](./images/image0095.png){width="0.9097484689413823in"
 height="1.25in"}
 
 ### Prototype chaining
@@ -26817,7 +26112,7 @@ height="1.25in"}
 > object-oriented systems.
 >
 > []{#_bookmark452 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 #### Description
 
@@ -26885,7 +26180,7 @@ height="1.25in"}
 > for a newly created subclass instead of a subconstructor. This will
 > initialize all objects in the super() function on sub().
 >
-> ![](./images-ref/media/image96.png){width="0.4178423009623797in"
+> ![](./images/image0096.png){width="0.4178423009623797in"
 > height="0.3365748031496063in"}When we use prototype chaining, the
 > constructor function will allow us to pass arguments from a super
 > constructor to within the subconstructor.
@@ -26931,7 +26226,7 @@ height="1.25in"}
 > //console.log(this.age);
 >
 > []{#_bookmark454 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > };
 >
@@ -27047,7 +26342,7 @@ height="1.25in"}
 > Var clone=obj(abc);
 >
 > []{#_bookmark456 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > Clone.sayHi=function() {
 >
@@ -27161,7 +26456,7 @@ height="1.25in"}
 > }
 >
 > []{#_bookmark458 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ## Built-in objects
 
@@ -27268,7 +26563,7 @@ height="1.25in"}
 > var time = new Date(); time.getMilliseconds();
 >
 > []{#_bookmark460 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 #### getMinutes()
 
@@ -27369,7 +26664,7 @@ height="1.25in"}
 > A number from 0-11.
 >
 > []{#_bookmark462 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ##### Description
 
@@ -27477,7 +26772,7 @@ height="1.25in"}
 > The argument with the minimum value.
 >
 > []{#_bookmark464 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ##### Description
 
@@ -27576,7 +26871,7 @@ height="1.25in"}
 > value returned is 7
 >
 > []{#_bookmark466 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 #### floor()
 
@@ -27658,7 +26953,7 @@ height="1.25in"}
 
 -   Literal syntax
 
-> ![](./images-ref/media/image97.png){width="0.41783792650918633in"
+> ![](./images/image0097.png){width="0.41783792650918633in"
 > height="0.336580271216098in"}There are differences between the RegExp
 > object and global object. They look the same but act differently.
 
@@ -27681,7 +26976,7 @@ height="1.25in"}
     four types of parameters (g, I, m ,u).
 
 > []{#_bookmark468 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ##### Literal syntax
 
@@ -27778,7 +27073,7 @@ height="1.25in"}
 >
 > Here the value of parsestring1 is Apple Cinnamon Roll.
 >
-> ![](./images-ref/media/image98.png){width="0.417836832895888in"
+> ![](./images/image0098.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}Remember here that the search is case
 > sensitive, so if you provide the value
 > parsestring1=str1.replace(\"piE\", \"Cinnamon Roll\"); then no
@@ -27793,7 +27088,7 @@ height="1.25in"}
 > Strawberry PIE.
 >
 > []{#_bookmark470 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > To perform a global search and replacement so that all occurrences are
 > replaced we use the following code:
@@ -27891,7 +27186,7 @@ height="1.25in"}
 > will return -1. Global flags are not supported by this method.
 >
 > []{#_bookmark472 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > Here is an example:
 >
@@ -27900,7 +27195,7 @@ height="1.25in"}
 >
 > The value of parseString here is 18.
 >
-> ![](./images-ref/media/image99.png){width="0.417836832895888in"
+> ![](./images/image0099.png){width="0.417836832895888in"
 > height="0.3365758967629046in"}There are additional string methods
 > available to perform other tasks on strings.
 >
@@ -27998,7 +27293,7 @@ height="1.25in"}
 > appear as comma- separated strings.
 >
 > []{#_bookmark474 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ##### Parameters
 
@@ -28109,7 +27404,7 @@ height="1.25in"}
 > The array as a string along with the new elements, if any.
 >
 > []{#_bookmark476 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 
 ##### Description
 
@@ -28212,7 +27507,7 @@ height="1.25in"}
 > var StrSweets= sweets.slice(3);
 >
 > []{#_bookmark478 .anchor}*[JavaScript Object-Oriented
-> Programming]{.underline}*
+> Programming]*
 >
 > Here the value of StrSweets is:
 >
@@ -28271,15 +27566,15 @@ height="1.25in"}
 > browsers. It also links all listed features to their specification
 > guides.
 >
-> *[Extending JavaScript and ECMAScript 6]{.underline}*
+> *[Extending JavaScript and ECMAScript 6]*
 >
-> ![](./images-ref/media/image100.png){width="0.417836832895888in"
+> ![](./images/image100.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}It should be noted that some of the
 > features might not be under compliance with their exact
 > specifications. While working in Chrome, don\'t forget to enable the
 > Experimental JavaScript flags.
 
-![](./images-ref/media/image101.jpeg)
+![](./images/image101.jpeg)
 
 > Reference: Use ECMAScript 6 Today
 
@@ -28329,7 +27624,7 @@ height="1.25in"}
 > These subset are defined for every reason.
 >
 > []{#_bookmark481 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > **The good parts**: This is a subset that is part of the language used
 > for the best and the worthy part of the script. The main goal of this
@@ -28343,7 +27638,7 @@ height="1.25in"}
 > function, and then, after defining the function, it does not use the
 > function definition statement.
 >
-> ![](./images-ref/media/image102.png){width="0.417836832895888in"
+> ![](./images/image102.png){width="0.417836832895888in"
 > height="0.3365748031496063in"}In subset curly brackets, we have a body
 > of loops and conditional statements. If there is a single statement in
 > the body, then it would not allow the brackets to be omitted.
@@ -28386,7 +27681,7 @@ height="1.25in"}
 
 []{#_bookmark482 .anchor}*Chapter 11*
 
-![](./images-ref/media/image103.png)
+![](./images/image103.png)
 
 ##### Caja
 
@@ -28420,7 +27715,7 @@ height="1.25in"}
 > non-existent function.
 >
 > []{#_bookmark483 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ##### Microsoft\'s web sandbox
 
@@ -28436,7 +27731,7 @@ height="1.25in"}
 > with the elements outside the virtual machine. Let\'s take a look at
 > the following block diagram:
 
-![](./images-ref/media/image104.png)
+![](./images/image104.png)
 
 > Microsoft\'s Web Sandbox
 
@@ -28455,7 +27750,7 @@ height="1.25in"}
 > It works like variable keyword var. For declaring a constant, we use
 > the word const. In order to use assignment we must declare constant.
 >
-> ![](./images-ref/media/image105.png){width="0.4178423009623797in"
+> ![](./images/image105.png){width="0.4178423009623797in"
 > height="0.3365748031496063in"}Values declared with the const can not
 > be redeclared, redefined or reinitialized. JavaScript provide 8
 > constants through math object. One of them is PI. we can not
@@ -28517,13 +27812,13 @@ height="1.25in"}
 > }());
 >
 > []{#_bookmark485 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > Notice that although the value of name is jane inside the function,
 > using the let keyword sets its scope to global and the value of name
 > defaults to john. Hence, john is logged in the client\'s console.
 >
-> ![](./images-ref/media/image106.png){width="0.417836832895888in"
+> ![](./images/image106.png){width="0.417836832895888in"
 > height="0.3365748031496063in"}If we declare a variable as a constant,
 > assign it some value, use the same constant somewhere else that
 > changes its value, then its new value will be ignored. Like variables,
@@ -28596,7 +27891,7 @@ height="1.25in"}
 >
 > Const a=5;
 >
-> ![](./images-ref/media/image107.png){width="0.41784120734908137in"
+> ![](./images/image107.png){width="0.41784120734908137in"
 > height="0.33657261592300963in"}The const and let keywords work in a
 > similar way that they both are block scoped. However, in the case of
 > const, values cannot be redeclared, redefined, or reinitialized. In
@@ -28612,7 +27907,7 @@ height="1.25in"}
 > const PI = 2.0312; //\<\-\-\-\-\-\-- Can not re-initialize value of PI
 >
 > []{#_bookmark487 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > console.log(\"value of PI = \" + PI); //Uncaught TypeError:
 >
@@ -28661,7 +27956,7 @@ height="1.25in"}
 
 []{#_bookmark488 .anchor}*Chapter 11*
 
-> ![](./images-ref/media/image108.png){width="0.3199486001749781in"
+> ![](./images/image108.png){width="0.3199486001749781in"
 > height="0.3996576990376203in"}If you want to deliberately throw an
 > exception, we would use the throw statement. This will abort the
 > execution of the remaining statements, and the control will move to
@@ -28692,7 +27987,7 @@ height="1.25in"}
 >
 > if (e instanceofReferenceError) {
 >
-> ![](./images-ref/media/image109.png){width="0.41153543307086615in"
+> ![](./images/image109.png){width="0.41153543307086615in"
 > height="0.5140212160979878in"}// statements to handle
 > ReferenceErrorexceptions
 >
@@ -28720,7 +28015,7 @@ height="1.25in"}
 > }
 >
 > []{#_bookmark489 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ### The finally clause
 
@@ -28830,7 +28125,7 @@ height="1.25in"}
 > Children below the age of 16 are not allowed. Parent Supervision
 > needed!
 >
-> ![](./images-ref/media/image110.png){width="0.4178423009623797in"
+> ![](./images/image110.png){width="0.4178423009623797in"
 > height="0.33657152230971127in"}In try-catch statements, we must have
 > at least one finally or try-catch block. Try doesn\'t necessarily need
 > a catch clause. If a try statement does not contain at least one catch
@@ -28841,7 +28136,7 @@ height="1.25in"}
 > catch-finally clauses.
 >
 > []{#_bookmark491 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ## E4X -- ECMAScript for XML
 
@@ -28945,7 +28240,7 @@ height="1.25in"}
 > function that returns a Generator object).
 >
 > []{#_bookmark493 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ### Classes
 
@@ -29061,7 +28356,7 @@ height="1.25in"}
 > }
 >
 > []{#_bookmark495 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > In the preceding example, the createStudent() function creates a
 > student object whose name and class properties are similar to the
@@ -29170,7 +28465,7 @@ height="1.25in"}
 > substitutions.
 >
 > []{#_bookmark497 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > Template strings are enclosed within backticks (\`) instead of single
 > or double quotes. Here is an example:
@@ -29263,7 +28558,7 @@ height="1.25in"}
 > date of birth is on 29 November
 >
 > []{#_bookmark499 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 #### Object destructuring
 
@@ -29378,7 +28673,7 @@ height="1.25in"}
 > console.log(sum(...args, ...args, 3)); // 6
 >
 > []{#_bookmark501 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > Here is an example showing the usage of default, rest, and spread
 > parameters:
@@ -29485,7 +28780,7 @@ height="1.25in"}
 > }
 >
 > []{#_bookmark503 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ### Generators {#generators-2}
 
@@ -29500,7 +28795,7 @@ height="1.25in"}
 > keyword. A normal function becomes a generator if it contains a yield
 > expression and uses function\* syntax.
 >
-> ![](./images-ref/media/image111.png){width="0.3199507874015748in"
+> ![](./images/image111.png){width="0.3199507874015748in"
 > height="0.3996555118110236in"}It doesn\'t matter whether there is
 > space between the function keyword and the asterisk.
 >
@@ -29586,7 +28881,7 @@ height="1.25in"}
 > console.log(\"2π = \" + ln(e)\*pi\*2);
 >
 > []{#_bookmark505 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ### Module loaders
 
@@ -29691,7 +28986,7 @@ height="1.25in"}
 > Here are some of the methods of the map object.
 >
 > []{#_bookmark507 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ##### Map.prototype.clear()
 
@@ -29795,7 +29090,7 @@ height="1.25in"}
 > It returns nothing.
 >
 > []{#_bookmark509 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ###### Parameter
 
@@ -29901,7 +29196,7 @@ height="1.25in"}
 > the keys for every component in the map object in the insertion order.
 >
 > []{#_bookmark511 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > An example of this method is shown here:
 >
@@ -30001,7 +29296,7 @@ height="1.25in"}
 > {}
 >
 > []{#_bookmark513 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 #### WeakMap
 
@@ -30011,7 +29306,7 @@ height="1.25in"}
 > doesn\'t reference to an object acting like a key. As a result of
 > these differences, there is no method to access keys in WeakMap.
 >
-> ![](./images-ref/media/image112.png){width="0.417836832895888in"
+> ![](./images/image112.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}Keys in WeakMap are not enumerable,
 > which means that there is no method to give you a list of keys. There
 > is size property available in WeakMap.
@@ -30099,7 +29394,7 @@ height="1.25in"}
 > the WeakMap.
 >
 > []{#_bookmark515 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ##### WeakMap.prototype.get()
 
@@ -30204,7 +29499,7 @@ height="1.25in"}
 > The object to add to the WeakSet collection.
 >
 > []{#_bookmark517 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ###### Description
 
@@ -30303,7 +29598,7 @@ height="1.25in"}
 > myWeakMap.size === undefined
 >
 > []{#_bookmark519 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > // Weak Sets
 >
@@ -30411,9 +29706,9 @@ height="1.25in"}
 > var c = new SomeClass(\"bye\") c\[\"key\"\] === undefined
 >
 > []{#_bookmark520 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
-> ![](./images-ref/media/image113.png){width="0.41783792650918633in"
+> ![](./images/image113.png){width="0.41783792650918633in"
 > height="0.33658683289588803in"}The ECMAScript 6 standard uses a
 > special notation to indicate symbols,
 >
@@ -30525,7 +29820,7 @@ height="1.25in"}
     This function has one argument, the rejection reason.
 
 > []{#_bookmark522 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ##### Description
 
@@ -30644,7 +29939,7 @@ height="1.25in"}
 > var j =response.json();
 >
 > []{#_bookmark523 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > // maybe do something with j
 >
@@ -30763,7 +30058,7 @@ height="1.25in"}
 > Math.hypot(3, 4) // 5
 >
 > []{#_bookmark525 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 >
 > Math.imul(Math.pow(2, 32) - 1, Math.pow(2, 32) - 2) // 2
 >
@@ -30867,7 +30162,7 @@ height="1.25in"}
 > value indicating whether property was successful or not.
 >
 > []{#_bookmark527 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ##### Parameter
 
@@ -30977,7 +30272,7 @@ height="1.25in"}
 > // \"a\"
 >
 > []{#_bookmark529 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 #### Reflect.construct(target, args)
 
@@ -31086,7 +30381,7 @@ height="1.25in"}
 > false.
 >
 > []{#_bookmark531 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 ##### Returns
 
@@ -31198,7 +30493,7 @@ height="1.25in"}
 > Reflect.setPrototypeOf(target,prototype);// will return false
 >
 > []{#_bookmark533 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 #### Reflect.deleteProperty(target, prop)
 
@@ -31302,7 +30597,7 @@ height="1.25in"}
 > will return false
 >
 > []{#_bookmark535 .anchor}*[Extending JavaScript and ECMAScript
-> 6]{.underline}*
+> 6]*
 
 #### Reflect.isExtensible(target)
 
@@ -31409,7 +30704,7 @@ height="1.25in"}
 > to wait for all the resources to return before it could respond to
 > more requests.
 >
-> ![](./images-ref/media/image114.png){width="0.417836832895888in"
+> ![](./images/image114.png){width="0.417836832895888in"
 > height="0.3365758967629046in"}Note that this reference will only be
 > Node.js specific; we will not cover
 >
@@ -31425,7 +30720,7 @@ height="1.25in"}
 > A great book that covers frameworks and more is *Building Scalable
 > Apps with Redis and Node.js* by Packt Publishing.
 >
-> *[Server-side JavaScript -- NodeJS]{.underline}*
+> *[Server-side JavaScript -- NodeJS]*
 >
 > In this chapter, the following groups of references will be described,
 > accompanied with examples:
@@ -31542,7 +30837,7 @@ height="1.25in"}
     directory, and parent directory, respectively.
 
 > []{#_bookmark539 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 -   If the filename is not found, require will then try appending .js,
     .json, or .node. This means that the require (./data/models)
@@ -31642,13 +30937,13 @@ height="1.25in"}
 > added to the exports object as properties. We have all of
 > JavaScript\'s function- and object-creation tricks at our disposal.
 >
-> ![](./images-ref/media/image115.png){width="0.417836832895888in"
+> ![](./images/image115.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}A quick note is that require will cache
 > output. This means consecutive calls to the same module will return
 > the same instance of an object.
 >
 > []{#_bookmark541 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Examples of the constructor() function being used are shown here:
 
@@ -31745,7 +31040,7 @@ height="1.25in"}
 > are global objects that will be available in any file or context.
 >
 > []{#_bookmark543 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 #### stdout
 
@@ -31851,7 +31146,7 @@ height="1.25in"}
 > process.on({signal, callback});
 >
 > []{#_bookmark545 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### Description
 
@@ -31960,7 +31255,7 @@ height="1.25in"}
 > process.cwd()
 >
 > []{#_bookmark547 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Here is an example that set the cwd variable to the current working
 > directory of the process:
@@ -32004,7 +31299,7 @@ height="1.25in"}
 > dirname command is used many times when a relative path needs to be
 > created.
 >
-> ![](./images-ref/media/image116.png){width="0.41783792650918633in"
+> ![](./images/image116.png){width="0.41783792650918633in"
 > height="0.3365824584426947in"}Both the filename and dirname variables
 > are available in any file being executed by Node.js. They are
 > determined per file, so they are correct for each file that gets
@@ -32039,7 +31334,7 @@ height="1.25in"}
 > takeaway is that the first parameter, err, will be null if no error
 > occurred, or it will have the error.
 >
-> ![](./images-ref/media/image117.png){width="0.417836832895888in"
+> ![](./images/image117.png){width="0.417836832895888in"
 > height="0.336576990376203in"}In the current versions of Node.js, you
 > need not use a callback function, but this will become an exception in
 > v0.12.
@@ -32069,7 +31364,7 @@ height="1.25in"}
 > fs.statstat(path, callback) fs.statSync(path)
 >
 > []{#_bookmark549 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### Description
 
@@ -32190,7 +31485,7 @@ height="1.25in"}
 > });
 >
 > []{#_bookmark551 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 #### readFile
 
@@ -32306,7 +31601,7 @@ height="1.25in"}
 > });
 >
 > []{#_bookmark553 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 #### writeFile
 
@@ -32328,7 +31623,7 @@ height="1.25in"}
 > using these functions is control. You can only read an entire file or
 > write an entire file.
 >
-> ![](./images-ref/media/image118.png){width="0.41784120734908137in"
+> ![](./images/image118.png){width="0.41784120734908137in"
 > height="0.3365813648293963in"}With read or write, you can read any
 > portion and write any portion of
 >
@@ -32393,7 +31688,7 @@ height="1.25in"}
 > likely need to locate paths relative to your current project, and this
 > is what the path module is for:
 >
-> ![](./images-ref/media/image119.png){width="0.4178423009623797in"
+> ![](./images/image119.png){width="0.4178423009623797in"
 > height="0.33658683289588803in"}Note that the path module does not
 > check for the existence of path modifications. It essentially only
 > makes changes to the string value of a path.
@@ -32410,7 +31705,7 @@ height="1.25in"}
 > path.normalize(pathString)
 >
 > []{#_bookmark555 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### Description
 
@@ -32514,7 +31809,7 @@ height="1.25in"}
 > path.basename(pathString, \[ext\])
 >
 > []{#_bookmark557 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### Description
 
@@ -32615,7 +31910,7 @@ height="1.25in"}
 > server, so we can come back through the logs to find what went wrong.
 >
 > []{#_bookmark559 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 #### Error design patterns
 
@@ -32649,7 +31944,7 @@ height="1.25in"}
     this ourselves whenever we write an asynchronous function. If there
     is an error, return it in the callback as the first parameter.
 
-> ![](./images-ref/media/image120.png){width="0.41784120734908137in"
+> ![](./images/image120.png){width="0.41784120734908137in"
 > height="0.33658683289588803in"}When handling errors like these, we
 > must put an error check in every callback function. This is important,
 > as not doing this can silently swallow errors.
@@ -32718,7 +32013,7 @@ height="1.25in"}
 > function in the rest of this section available.
 >
 > []{#_bookmark561 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Here is an example of setting up a custom the EventEmitter parameter:
 >
@@ -32821,7 +32116,7 @@ height="1.25in"}
 > emitter.setMaxListeners(numberOfListeners)
 >
 > []{#_bookmark563 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Node.js has a helpful warning when the number of listeners exceeds a
 > threshold. The default value is 10, so when you add the eleventh
@@ -32918,7 +32213,7 @@ height="1.25in"}
 > var md5 = crypto.createHash(\'md5\'); md5.update(f);
 > console.log(md5.digest(\'base64\'));
 >
-> ![](./images-ref/media/image121.png){width="0.31994641294838144in"
+> ![](./images/image121.png){width="0.31994641294838144in"
 > height="0.3996522309711286in"}Do not use hashing for passwords. The
 > next function we will cover is much more secure than a simple hash. A
 > digest hash is great for checking if some data has changed, as the
@@ -32931,7 +32226,7 @@ height="1.25in"}
 > hash as the key. If the data is the same, the key will be the same.
 >
 > []{#_bookmark565 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 #### pbkdf2
 
@@ -33041,7 +32336,7 @@ height="1.25in"}
 > for example.
 >
 > []{#_bookmark567 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Here is a simple example of executing this function asynchronously:
 >
@@ -33153,7 +32448,7 @@ height="1.25in"}
 > the end of the buffer.
 >
 > []{#_bookmark569 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Here is an example of creating a buffer and retrieving the data out of
 > it. It explicitly
@@ -33257,7 +32552,7 @@ height="1.25in"}
 > \'utf8\'); console.log(buffer.toString());
 >
 > []{#_bookmark571 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 #### readUInt
 
@@ -33318,7 +32613,7 @@ height="1.25in"}
 >
 > buffer.writeUInt16LE(0x0002, 2); console.log(buffer);
 >
-> ![](./images-ref/media/image122.png){width="0.4144608486439195in"
+> ![](./images/image122.png){width="0.4144608486439195in"
 > height="0.5177012248468942in"}Note that there are more read and write
 > functions of this type for the buffer class. Instead of creating a
 > very redundant section, I will list them. Remember that they work in
@@ -33358,7 +32653,7 @@ height="1.25in"}
 > console.dir(object)
 >
 > []{#_bookmark573 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### Description
 
@@ -33458,7 +32753,7 @@ height="1.25in"}
 > **npm install \[package\] \[@version\] \[\--save \| \--save-dev\]**
 >
 > []{#_bookmark575 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### Description
 
@@ -33566,7 +32861,7 @@ height="1.25in"}
 > for.
 >
 > []{#_bookmark577 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > To put a stream in the flowing mode, you will just have to listen for
 > the data event. Conversely, to put a stream in the non-flowing mode,
@@ -33680,7 +32975,7 @@ height="1.25in"}
 > again.
 >
 > []{#_bookmark579 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Here is an example that pauses the stream for a few seconds before
 > reading it:
@@ -33736,7 +33031,7 @@ height="1.25in"}
 
 []{#_bookmark580 .anchor}*Chapter 12*
 
-> ![](./images-ref/media/image123.png){width="0.417836832895888in"
+> ![](./images/image123.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}It is important to note that a stream
 > can be given more data than it can write in a timely fashion. This is
 > especially true when writing to a network stream. Because of this, the
@@ -33784,7 +33079,7 @@ height="1.25in"}
 > and the callback will be attached to the finish event.
 >
 > []{#_bookmark581 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Here is an example to end a writable stream:
 >
@@ -33906,7 +33201,7 @@ height="1.25in"}
 > when the server starts listening.
 >
 > []{#_bookmark583 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > You may get EADDRINUSE. This just means that the port is already being
 > used by another process.
@@ -34015,7 +33310,7 @@ height="1.25in"}
 > });
 >
 > []{#_bookmark585 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 #### net.Socket
 
@@ -34134,7 +33429,7 @@ height="1.25in"}
 > client.connect(5000, \'localhost\');
 >
 > []{#_bookmark587 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### end
 
@@ -34238,7 +33533,7 @@ height="1.25in"}
 > callback will be attached to the listening event.
 >
 > []{#_bookmark589 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 >
 > Here is an example of listening on a network port with all the
 > parameters defined:
@@ -34351,7 +33646,7 @@ height="1.25in"}
 > });
 >
 > []{#_bookmark591 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 #### method {#method-2}
 
@@ -34457,7 +33752,7 @@ height="1.25in"}
 > response.statusCode
 >
 > []{#_bookmark593 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### Description
 
@@ -34555,7 +33850,7 @@ height="1.25in"}
 -   localAddress
 
 > []{#_bookmark595 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 -   socketPath
 
@@ -34653,7 +33948,7 @@ height="1.25in"}
 > request.on(\'response\', function(response){})
 >
 > []{#_bookmark597 .anchor}*[Server-side JavaScript --
-> NodeJS]{.underline}*
+> NodeJS]*
 
 ##### Description
 
@@ -34720,7 +34015,7 @@ Frontend Framework
 > and Safari browsers.
 >
 > []{#_bookmark599 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### The HTML5 doctype
 
@@ -34825,7 +34120,7 @@ Frontend Framework
 -   Responsive layouts
 
 > []{#_bookmark601 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 >
 > Fixed layouts do not change with screen size and all styles are
 > static. Fluid layouts make the div elements flow to the bottom if they
@@ -34961,7 +34256,7 @@ Frontend Framework
 > [http://getbootstrap.com/css/#grid-options](http://getbootstrap.com/css/#grid-options%20)
 >
 > []{#_bookmark603 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 ## The grid system
 
@@ -35101,7 +34396,7 @@ Frontend Framework
 > col-xs-6 .col-sm-3\</div\>
 >
 > []{#_bookmark605 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 >
 > \<div class=\"col-xs-6 col-sm-3\" style=\"background-
 > color:brown;\"\>.col-xs-6 .col-sm-3\</div\>\</div\>
@@ -35221,7 +34516,7 @@ Frontend Framework
 > parameter to calculate the left and right margins for a row.
 >
 > []{#_bookmark607 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### Variables
 
@@ -35327,7 +34622,7 @@ Frontend Framework
 > \<em\>\...\</em\>
 >
 > []{#_bookmark609 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### Alignment
 
@@ -35434,7 +34729,7 @@ Frontend Framework
 > \<table class=\"table table-hover\"\> \... \</table\>
 >
 > []{#_bookmark611 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### Condensed rows
 
@@ -35556,7 +34851,7 @@ Frontend Framework
 > \</ul\>
 >
 > []{#_bookmark613 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### Inline lists
 
@@ -35663,7 +34958,7 @@ Frontend Framework
 > input\" id =\"txtName\"\>
 >
 > []{#_bookmark615 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 >
 > If we want the text altered to not show the actual letters being typed
 > in, then we can use the input type as password. The syntax for using
@@ -35771,7 +35066,7 @@ Frontend Framework
 > \<div class=\"form-group has-error\"\> ... \</div\>
 >
 > []{#_bookmark617 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### Control sizing
 
@@ -35799,9 +35094,9 @@ Frontend Framework
 >
 > The preceding code will create the following images:
 
-![](./images-ref/media/image124.png)
+![](./images/image124.png)
 
-> ![](./images-ref/media/image125.png){width="0.417836832895888in"
+> ![](./images/image125.png){width="0.417836832895888in"
 > height="0.3365748031496063in"}Note that Internet Explorer 8 lacks
 > support for rounded corners in images.
 
@@ -35815,7 +35110,7 @@ Frontend Framework
 > [Glyphicons](http://bootstrapdocs.com/v3.0.3/docs/components/#glyphicons)
 > are shown in the following diagram:
 
-![](./images-ref/media/image126.png)
+![](./images/image126.png)
 
 > More than 250 Glyphicons in font format are present in the **Glyphicon
 > Halflings** set. Here is how to add Glyphicons in Bootstrap:
@@ -35823,9 +35118,9 @@ Frontend Framework
 > \<span class=\"glyphicon glyphicon-search\"\>\</span\>
 >
 > []{#_bookmark619 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 >
-> ![](./images-ref/media/image127.png){width="0.4178423009623797in"
+> ![](./images/image127.png){width="0.4178423009623797in"
 > height="0.3365780839895013in"}All the available Glyphicons can be
 > found at [http://getbootstrap.](http://getbootstrap.com/components/)
 > [com/components/](http://getbootstrap.com/components/).
@@ -35878,7 +35173,7 @@ Frontend Framework
 
 []{#_bookmark620 .anchor}*Chapter 13*
 
-> ![](./images-ref/media/image128.png){width="0.41783792650918633in"
+> ![](./images/image128.png){width="0.41783792650918633in"
 > height="0.3365780839895013in"}Remember to place the actual link in
 > place of #.
 
@@ -35926,7 +35221,7 @@ Frontend Framework
 > \<p class=\"navbar-text\"\> ... \</p\>
 >
 > []{#_bookmark621 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### Non-nav links
 
@@ -36034,7 +35329,7 @@ Frontend Framework
 > \</ol\>
 >
 > []{#_bookmark623 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 ## Labels and badges
 
@@ -36148,13 +35443,13 @@ Frontend Framework
 >
 > \</div\>
 >
-> ![](./images-ref/media/image129.png){width="0.41784120734908137in"
+> ![](./images/image129.png){width="0.41784120734908137in"
 > height="0.3365748031496063in"}For more types visit:
 > [http://www.w3schools.com/bootstrap/](http://www.w3schools.com/bootstrap/bootstrap_progressbars.asp)
 > [bootstrap_progressbars.asp](http://www.w3schools.com/bootstrap/bootstrap_progressbars.asp).
 >
 > []{#_bookmark625 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 ## Advanced Bootstrap/JavaScript plugins
 
@@ -36271,7 +35566,7 @@ Frontend Framework
 > \</button\>
 >
 > []{#_bookmark627 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### Split button
 
@@ -36337,7 +35632,7 @@ Frontend Framework
 >
 > placement=\"right\" title=\"Tooltip\"\> Tooltip at the right\</a\>
 >
-> ![](./images-ref/media/image130.png){width="0.417836832895888in"
+> ![](./images/image130.png){width="0.417836832895888in"
 > height="0.3365824584426947in"}Remember to place the actual link in
 > place of #.
 
@@ -36385,9 +35680,9 @@ Frontend Framework
 > right \</a\>
 >
 > []{#_bookmark629 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 >
-> ![](./images-ref/media/image131.png){width="0.417836832895888in"
+> ![](./images/image131.png){width="0.417836832895888in"
 > height="0.3365780839895013in"} Remember to place the actual link in
 > place of #.
 
@@ -36524,7 +35819,7 @@ Frontend Framework
 > \<div class=\"panel-body\"\>
 >
 > []{#_bookmark631 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 >
 > These exhibits are for animals from the tropical regions of the
 > planet. Take a guided tour through Exhibit A, our largest exhibit
@@ -36676,7 +35971,7 @@ Frontend Framework
 > \</ol\>
 >
 > []{#_bookmark633 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 >
 > \<!\-- Wrapper for slides \--\>
 >
@@ -36740,7 +36035,7 @@ Frontend Framework
 > predictions as the user types into the text box and may look something
 > like this if programmed to type ahead the states of the US:
 
-![](./images-ref/media/image132.jpeg)
+![](./images/image132.jpeg)
 
 []{#_bookmark634 .anchor}*Chapter 13*
 
@@ -36796,7 +36091,7 @@ Frontend Framework
 > time.
 >
 > []{#_bookmark635 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 #### Activating the affix plugin via a data attribute
 
@@ -36830,18 +36125,18 @@ Frontend Framework
 
 -   <https://www.engineyard.com/>
 
-![](./images-ref/media/image133.jpeg)
+![](./images/image133.jpeg)
 
 -   [[]{#bookmark636
     .anchor}http://www.hublot.com/en/](http://www.hublot.com/en/)
 
 > *Chapter 13*
 >
-> ![](./images-ref/media/image134.jpeg)
+> ![](./images/image134.jpeg)
 
 -   [https://www.fliplingo.com](https://www.fliplingo.com/)
 
-![](./images-ref/media/image135.jpeg)
+![](./images/image135.jpeg)
 
 ## Bootstrap resources
 
@@ -36856,7 +36151,7 @@ Frontend Framework
     on GitHub. Themes are built for the latest version of Bootstrap.
 
 > []{#_bookmark637 .anchor}*[Bootstrap -- The Stylish CSS Frontend
-> Framework]{.underline}*
+> Framework]*
 
 -   [www.startbootstrap.com](http://www.startbootstrap.com/):
     **Startbootstrap** is an easy way to learn and develop Bootstrap, as
@@ -36880,7 +36175,7 @@ Frontend Framework
 
 -   <http://getbootstrap.com/getting-started/#examples>
 
-> ![](./images-ref/media/image136.png){width="0.41784120734908137in"
+> ![](./images/image136.png){width="0.41784120734908137in"
 > height="0.3365748031496063in"}As of now, Bootstrap version 4 alpha has
 > been launched. All the JavaScript plugins have been rewritten in
 > ECMAScript6, Completely shifted from LESS to SASS and IE8 support has
@@ -36926,12 +36221,12 @@ JavaScript Library
 > is more stable and supports older browsers as well; whereas, 2.x has
 > the same API as 1.x but without the support for legacy browsers.
 >
-> ![](./images-ref/media/image137.png){width="0.417836832895888in"
+> ![](./images/image137.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}A legacy browser is an older version of
 > a browser that has not been updated to the latest available version.
 >
 > []{#_bookmark639 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 >
 > If you are using jQuery for a project, you can get another version
 > that takes fewer resources and is faster to load.
@@ -36989,7 +36284,7 @@ JavaScript Library
 >
 > Here, js is a folder in the root directory of your project.
 >
-> ![](./images-ref/media/image138.png){width="0.31994641294838144in"
+> ![](./images/image138.png){width="0.31994641294838144in"
 > height="0.3996522309711286in"}To avoid longer loading time and
 > performance issues, scripts should be added to the end of the \<body\>
 > tag because when the browser loads the web page (let\'s say,
@@ -37035,7 +36330,7 @@ JavaScript Library
 > Selectors begin with a \$ sign followed by parentheses: \$()
 >
 > []{#_bookmark641 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ### Element selectors
 
@@ -37133,7 +36428,7 @@ JavaScript Library
 > This returns the response generated by the function called on click.
 >
 > []{#_bookmark643 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Description
 
@@ -37252,7 +36547,7 @@ JavaScript Library
 > );
 >
 > []{#_bookmark645 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 #### .mousedown()
 
@@ -37359,7 +36654,7 @@ JavaScript Library
 > accordingly.
 >
 > []{#_bookmark647 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 >
 > Here is an example of its usage.
 
@@ -37468,7 +36763,7 @@ JavaScript Library
 > \<div id=\"myLog\"\>\</div\>
 >
 > []{#_bookmark649 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 >
 > Required jQuery Code:
 >
@@ -37584,7 +36879,7 @@ JavaScript Library
 > Here is an example of its usage.
 >
 > []{#_bookmark651 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 >
 > Required HTML Code:
 >
@@ -37693,7 +36988,7 @@ JavaScript Library
 > now cover the description of each form event.
 >
 > []{#_bookmark653 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 #### submit()
 
@@ -37809,7 +37104,7 @@ JavaScript Library
 > its focus.
 >
 > []{#_bookmark655 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 >
 > Required HTML Code:
 >
@@ -37922,7 +37217,7 @@ JavaScript Library
 > });
 >
 > []{#_bookmark657 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 #### focusout()
 
@@ -38036,7 +37331,7 @@ JavaScript Library
 > This event does not return anything.
 >
 > []{#_bookmark659 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Description
 
@@ -38137,7 +37432,7 @@ JavaScript Library
 > Here is an example of its usage.
 >
 > []{#_bookmark661 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 >
 > Required HTML Code:
 >
@@ -38245,7 +37540,7 @@ JavaScript Library
 > This does not return anything.
 >
 > []{#_bookmark663 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Description
 
@@ -38302,7 +37597,7 @@ JavaScript Library
 
 []{#_bookmark664 .anchor}*Chapter 14*
 
-> ![](./images-ref/media/image139.png){width="0.3199486001749781in"
+> ![](./images/image139.png){width="0.3199486001749781in"
 > height="0.3996576990376203in"}This function should not be confused
 > with the mouse event function toggle(), which was explained
 > previously. To ensure which toggle() function is being used. Check the
@@ -38357,7 +37652,7 @@ JavaScript Library
 > This does not return anything.
 >
 > []{#_bookmark665 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Description
 
@@ -38463,7 +37758,7 @@ JavaScript Library
 > This does not return anything.
 >
 > []{#_bookmark667 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Description
 
@@ -38578,7 +37873,7 @@ JavaScript Library
 -   Time in milliseconds
 
 > []{#_bookmark669 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Returns
 
@@ -38691,7 +37986,7 @@ JavaScript Library
 > This does not return anything.
 >
 > []{#_bookmark671 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Description
 
@@ -38784,7 +38079,7 @@ JavaScript Library
 > This takes a list of arguments to pass back to the callback list.
 >
 > []{#_bookmark673 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 #### Returns
 
@@ -38871,7 +38166,7 @@ JavaScript Library
 > document.\"*
 >
 > []{#_bookmark675 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 >
 > The following are some ways of DOM manipulation in jQuery:
 
@@ -38888,13 +38183,13 @@ JavaScript Library
 > All the elements are mostly combined in the form of a tree, and we can
 > traverse them starting from the root.
 >
-> ![](./images-ref/media/image140.png){width="0.4178423009623797in"
+> ![](./images/image140.png){width="0.4178423009623797in"
 > height="0.3365758967629046in"}Elements are not *combined* per se, but
 > they are rather structured or modeled within the document object.
 >
 > Let\'s take a look at the following image:
 
-![](./images-ref/media/image141.png)
+![](./images/image141.png)
 
 > Let\'s take a look at the following description:
 
@@ -38978,7 +38273,7 @@ JavaScript Library
 > });
 >
 > []{#_bookmark677 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 #### parentsUntil():
 
@@ -39088,7 +38383,7 @@ JavaScript Library
 > the search among all siblings.
 >
 > []{#_bookmark679 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Returns
 
@@ -39205,7 +38500,7 @@ JavaScript Library
 > element.
 >
 > []{#_bookmark681 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Parameters
 
@@ -39320,7 +38615,7 @@ JavaScript Library
 > This function returns the last element of the selected elements.
 >
 > []{#_bookmark683 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Parameters
 
@@ -39399,7 +38694,7 @@ JavaScript Library
 >
 > });
 >
-> ![](./images-ref/media/image142.png){width="0.41784120734908137in"
+> ![](./images/image142.png){width="0.41784120734908137in"
 > height="0.33657152230971127in"}The not() method is the reverse of the
 > filter() method. If you want to find elements that do not satisfy the
 > mentioned condition, not() can be used.
@@ -39429,7 +38724,7 @@ JavaScript Library
 > \$(selector).load(URL,data,callback);
 >
 > []{#_bookmark685 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ##### Parameters
 
@@ -39532,7 +38827,7 @@ JavaScript Library
 > when triggered.
 >
 > []{#_bookmark687 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 ## Miscellaneous jQuery functions
 
@@ -39633,7 +38928,7 @@ JavaScript Library
 > element.
 >
 > []{#_bookmark689 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 #### Description
 
@@ -39754,7 +39049,7 @@ JavaScript Library
 > The name of the data that is to be removed is taken as a parameter.
 >
 > []{#_bookmark691 .anchor}*[jQuery -- The Popular JavaScript
-> Library]{.underline}*
+> Library]*
 
 #### Returns
 
@@ -39795,7 +39090,7 @@ JavaScript Library
 >
 > }( jQuery ));
 >
-> ![](./images-ref/media/image143.png){width="0.4178423009623797in"
+> ![](./images/image143.png){width="0.4178423009623797in"
 > height="0.336576990376203in"}For more support on creating custom
 > plugins, you can visit
 > [https://](https://learn.jquery.com/plugins/basic-plugin-creation/)
@@ -39871,14 +39166,14 @@ JavaScript Library
 >
 > object is available.
 >
-> ![](./images-ref/media/image144.png){width="0.417836832895888in"
+> ![](./images/image144.png){width="0.417836832895888in"
 > height="0.33657261592300963in"}If you are unsure on how to load
 > Angular, visit the official Angular page
 >
 > at <https://angularjs.org/>.
 >
 > []{#_bookmark694 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ## Modules (ngApp)
 
@@ -39984,7 +39279,7 @@ JavaScript Library
 > });
 >
 > []{#_bookmark696 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 -   This example creates a provider first. It is injected as
     firstProvider in
@@ -40046,7 +39341,7 @@ JavaScript Library
 >
 > \$routeProvider, and \$route.
 >
-> ![](./images-ref/media/image145.png){width="0.417836832895888in"
+> ![](./images/image145.png){width="0.417836832895888in"
 > height="0.33658683289588803in"}Your module will need to depend on
 > ngRoute to use these directives and services. We will also need to
 > include the Angular route JavaScript in our HTML.
@@ -40087,7 +39382,7 @@ JavaScript Library
 > \$routeProvider.otherwise(route)
 >
 > []{#_bookmark698 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### Parameters
 
@@ -40214,7 +39509,7 @@ JavaScript Library
 > });
 >
 > []{#_bookmark700 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ## Dependency injection
 
@@ -40264,7 +39559,7 @@ JavaScript Library
 >
 > }\]);
 >
-> ![](./images-ref/media/image146.png){width="0.417836832895888in"
+> ![](./images/image146.png){width="0.417836832895888in"
 > height="0.336580271216098in"}Only the array format is minification
 > safe. The first function will not work once the source has been
 > minified.
@@ -40318,7 +39613,7 @@ JavaScript Library
 > });
 >
 > []{#_bookmark702 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### Methods
 
@@ -40436,7 +39731,7 @@ JavaScript Library
 }\]);
 
 > []{#_bookmark704 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 >
 > Here is the template with all the data binding in the HTML document:
 >
@@ -40549,7 +39844,7 @@ JavaScript Library
 > This is a function to deregister the watch.
 >
 > []{#_bookmark706 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### Description
 
@@ -40651,7 +39946,7 @@ JavaScript Library
 > every controller.
 >
 > []{#_bookmark708 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 >
 > Another example is the \$route and \$routeParams services. When you
 > have a reference to the \$route service, you can always find out what
@@ -40758,7 +40053,7 @@ JavaScript Library
 }\]);
 
 > []{#_bookmark710 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 >
 > Here is the controller that will initialize the service:
 >
@@ -40868,7 +40163,7 @@ JavaScript Library
 > firstModule.value(\'appTitle\', \'First App\');
 >
 > []{#_bookmark712 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ### Constant
 
@@ -40948,7 +40243,7 @@ JavaScript Library
 >
 > PATCH. We will just look at GET, POST, and JSONP closely.
 >
-> ![](./images-ref/media/image143.png){width="0.4178423009623797in"
+> ![](./images/image143.png){width="0.4178423009623797in"
 > height="0.336576990376203in"}GET, POST, and JSONP will cover most, if
 > not all, of many people\'s needs for \$http. If this does not, view
 > the \$http documentation at
@@ -40972,7 +40267,7 @@ JavaScript Library
 > \$http.get:
 >
 > []{#_bookmark714 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 >
 > Here is the factory:
 >
@@ -41076,14 +40371,14 @@ JavaScript Library
 > This allows the object that was waiting for the response to do
 > something different.
 >
-> ![](./images-ref/media/image147.png){width="0.417836832895888in"
+> ![](./images/image147.png){width="0.417836832895888in"
 > height="0.3365748031496063in"}Visit <https://promisesaplus.com/> for
 > the complete specification for using promises in JavaScript. Promises
 > or promise-like objects are applicable in almost any JavaScript that
 > you may write.
 >
 > []{#_bookmark716 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ### \$q {#q-2}
 
@@ -41190,7 +40485,7 @@ JavaScript Library
 > window.alert in an expression.
 >
 > []{#_bookmark718 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ## Directives
 
@@ -41217,7 +40512,7 @@ JavaScript Library
 
 -   ng:model
 
-> ![](./images-ref/media/image148.png){width="0.41783573928258966in"
+> ![](./images/image148.png){width="0.41783573928258966in"
 > height="0.3365748031496063in"}If you are concerned with HTML 5
 > validation, then you should use the
 >
@@ -41299,7 +40594,7 @@ JavaScript Library
 > This is because we only used =, instead of =nameOfVariable.
 >
 > []{#_bookmark720 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### & binding
 
@@ -41417,7 +40712,7 @@ JavaScript Library
 > },
 >
 > []{#_bookmark722 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 >
 > template: \'\<button\>Add a DIV!\</button\>\', link: function
 > (\$scope, element) {
@@ -41528,7 +40823,7 @@ JavaScript Library
         would be the requiredController parameter.
 
 > []{#_bookmark724 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### Controller vs link
 
@@ -41632,7 +40927,7 @@ JavaScript Library
 > \<input ng-checked\>\</input\>
 >
 > []{#_bookmark726 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ##### Parameters
 
@@ -41737,7 +41032,7 @@ JavaScript Library
 > \</ul\>
 >
 > []{#_bookmark728 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### ngRepeat
 
@@ -41853,7 +41148,7 @@ JavaScript Library
 > \</div\>
 >
 > []{#_bookmark730 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### ngSwitch
 
@@ -41965,7 +41260,7 @@ JavaScript Library
     example, \$index in a repeater.
 
 > []{#_bookmark732 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ##### Description
 
@@ -42084,7 +41379,7 @@ JavaScript Library
 > {{y}}
 >
 > []{#_bookmark734 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### ngKeydown, ngKeyup, and ngKeypress
 
@@ -42187,7 +41482,7 @@ JavaScript Library
 > };
 >
 > []{#_bookmark736 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 #### ngCopy, ngCut, and ngPaste
 
@@ -42290,7 +41585,7 @@ JavaScript Library
 > }
 >
 > []{#_bookmark738 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ### isUndefined
 
@@ -42387,7 +41682,7 @@ JavaScript Library
 > of this, Angular has some extra features that work with forms.
 >
 > []{#_bookmark740 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ### ngModel
 
@@ -42495,7 +41790,7 @@ JavaScript Library
 > value passed validation.
 >
 > []{#_bookmark742 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 >
 > Here is an example of a custom validator where you cannot have the
 > value of the input set to josh:
@@ -42596,7 +41891,7 @@ JavaScript Library
     available in the function body.
 
 > []{#_bookmark744 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 
 ##### Description
 
@@ -42712,7 +42007,7 @@ JavaScript Library
 > },
 >
 > []{#_bookmark746 .anchor}*[AngularJS -- Google\'s In-Demand
-> Framework]{.underline}*
+> Framework]*
 >
 > replace: true,
 >
@@ -48513,4 +47808,3 @@ elements [86](#_bookmark85)
 > **Z**
 >
 > **z-index CSS property [255](#z-index)**
-
